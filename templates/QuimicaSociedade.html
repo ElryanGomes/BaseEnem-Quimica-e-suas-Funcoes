@@ -1,0 +1,112 @@
+{% extends "base.html" %}
+{% block title %} Quimica e Sociedade {% endblock %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/Sociedade.css') }}" />
+{% endblock %} {% block conteudo %}
+
+<div id="body-sociedade">
+  <header id="header-socie">
+    <h1>QUAL A IMPORTÂNCIA DA QUÍMICA NA SOCIEDADE ?</h1>
+  </header>
+
+  <nav id="nav-secao">
+    <a href="#secao1">Seção 1</a>
+    <a href="#secao2">Seção 2</a>
+    <a href="#secao3">Seção 3</a>
+  </nav>
+
+  <main>
+    <div class="section" id="secao1">
+      <div class="image-container">
+        <img id="img" src="{{ url_for('static', filename='img/QuimicaSociedade/Img1.webp') }}" alt="img1" />
+      </div>
+
+      <div class="text-container">
+        <p>
+          A Química presta uma contribuição essencial à humanidade com alimentos
+          e medicamentos, com roupas e moradia, com energia e matérias-primas,
+          com transportes e comunicações. Fornece, ainda, materiais para a
+          Física e para a indústria, modelos e substratos à Biologia e
+          Farmacologia, propriedades e procedimentos para outras ciências e
+          tecnologias. Como vimos acima, a química está constantemente presente
+          em nossa rotina diária.
+        </p>
+        <p>
+          Mas, afinal, qual a importância disso tudo para nós como sociedade?
+          Para te ajudar a visualizar, imagine uma sociedade sem água potável,
+          sem roupas, sem energia, sem transporte adequado, comunicação limitada
+          e até mesmo sem determinados alimentos, medicamentos e até mesmo
+          moradia. Parece algo primitivo, não é mesmo? É como se voltássemos
+          muitos e muitos anos no passado, e mesmo assim muitas dessas coisas já
+          existiam. Esse é o nível de importância da química para que uma
+          sociedade cresça e se expanda, tenha o que é necessário para realmente
+          viver em comunidade, tendo infraestrutura e itens básicos para
+          garantir saúde e longevidade.
+        </p>
+        <p>
+          No final, é como se a química realmente tivesse criado o elixir da
+          longa vida, afinal, ela possibilitou criar produtos que nos garantem
+          mais saúde, mais qualidade de vida e tudo mais. Essa é a importância
+          da química para a sociedade.
+        </p>
+      </div>
+    </div>
+
+    <div class="section" id="secao2">
+      <div class="image-container">
+        <img id="img" src="{{ url_for('static', filename='img/QuimicaSociedade/Img2.jpg') }}" alt="img1" />
+      </div>
+
+      <div class="text-container">
+        <h2 class="h2" style="text-align: center;">Química para um mundo melhor</h2>
+        <p>
+          Graças à Química, o nosso mundo se tornou um lugar mais confortável
+          para se viver. Nossos carros, casas, roupas transbordam criatividade
+          química. O nosso futuro energético dependerá da Química, assim como
+          atingir um dos objetivos do Milênio, que é prover água e saneamento
+          básico seguros para toda a humanidade.
+        </p>
+        <p>
+          Um mundo sem a ciência Química seria um mundo sem materiais
+          sintéticos, e isso significa sem telefones, sem computadores e sem
+          cinema. Seria também um mundo sem aspirina ou detergentes, shampoo ou
+          pasta de dente, sem cosméticos, contraceptivos, ou papel - e, assim,
+          sem jornal ou livros, colas ou tintas. Enfim, sem o desenvolvimento
+          proporcionado pela ciência Química, a vida, hoje, seria chata, curta e
+          dolorida!
+        </p>
+      </div>
+    </div>
+
+    <div class="section" id="secao3">
+      <div class="image-container">
+        <img id="img" src="{{ url_for('static', filename='img/QuimicaSociedade/Img3.jpg') }}" alt="img1" />
+      </div>
+
+      <div class="text-container">
+        <h2 class="h2" style="text-align: center;">Mas, afinal , o que é química ?</h2>
+        <p>
+          Se trata de uma ciência natural que é responsável pelas propriedades
+          de substâncias, estudando suas mudanças e como as leis naturais podem
+          nos explicar como cada uma delas ocorre. Logo quando começaram a
+          surgir profissionais desta área, que na época eram conhecidos como
+          alquimistas, a principal atividade era tentar transformar metais em
+          ouro através da mistura de substâncias.
+        </p>
+        <p>
+          O mesmo ocorria na tentativa de criar o elixir para a longa vida. Pode
+          parecer algo diferente do que se tem feito hoje, mas as práticas em si
+          continuam as mesmas. Afinal, lidamos com o estudo das substâncias, as
+          misturas para buscar compostos úteis e tudo mais. A Química exerce,
+          portanto, um papel primordial em nossa compreensão dos fenômenos
+          materiais, em nossa capacidade de agir sobre eles, para mudá-los e
+          controlá-los. E as transformações materiais que faremos - como humanos
+          - refletirão o melhor ou o pior de nós.
+        </p>
+      </div>
+    </div>
+
+  </main>
+</div>
+{% endblock %}

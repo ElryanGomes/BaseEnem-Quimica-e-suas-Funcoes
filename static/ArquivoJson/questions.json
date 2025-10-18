@@ -1,0 +1,1022 @@
+{
+  "2009": [
+    {
+      "id": 1,
+      "examLink": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia1_caderno2_amarelo.pdf",
+      "question": "(ENEM - 2009) O processo de industrialização tem gerado sérios problemas de ordem ambiental, econômica e social, entre os quais se pode citar a chuva ácida. Os ácidos usualmente presentes em maiores proporções na água da chuva são o H2CO3, formado pela reação do CO2 atmosférico com a água, o HNO3, o HNO2, o H2SO4 e o H2SO3. Esses quatro últimos são formados principalmente a partir da reação da água com os óxidos de nitrogênio e de enxofre gerados pela queima de combustíveis fósseis, a formação de chuva mais ou menos ácida depende não só da concentração do ácido formado, como também do tipo de ácido. Essa pode ser uma informação útil na elaboração de estratégias para minimizar esse problema ambiental. Se consideradas concentrações idênticas, quais dos ácidos citados no texto conferem maior acidez às águas das chuvas?",
+      "options": [
+        { "text": "HNO₃ e HNO₂", "image": null },
+        { "text": "H₂SO₄ e H₂SO₃", "image": null },
+        { "text": "H₂SO₃ e HNO₂", "image": null },
+        { "text": "H₂SO₄ e HNO₃", "image": null },
+        { "text": "H₂CO₃ e H₂SO₃", "image": null }
+      ],
+      "correct": 3,
+      "explanation": "No enunciado foi dito que, na água da chuva, são encontrados os seguintes ácidos: H₂CO₃, HNO₃, HNO₂, H₂SO₄ e H₂SO₃, logo, em uma mesma concentração, podemos dizer que o ácido mais forte dará uma maior acidez à água da chuva, no caso, o H₂SO₄ e HNO₃.",
+      "video": "https://www.youtube.com/embed/YUc6LcDyxQY?si=UpTpmVqOwDghBHPU",
+      "source": "https://descomplica.com.br/gabarito-enem/questoes/2009/primeiro-dia/o-processo-de-industrializacao-tem-gerado-serios-problemas-de-ordem/"
+    },
+    {
+      "id": 2,
+      "question": "(ENEM - 2009) O uso de protetores solares em situações de grande exposição aos raios solares, como nas praias, é importante para a saúde. As moléculas ativas de um protetor apresentam, usualmente, anéis aromáticos conjugados com grupos carbonila, capazes de absorver a radiação ultravioleta mais nociva aos seres humanos. A conjugação ocorre pela alternância entre ligações simples e duplas em uma molécula. Outra propriedade dessas moléculas é apresentar, em uma extremidade, uma parte apolar que reduz a solubilidade em água, impedindo sua rápida remoção ao entrar em contato com a água.",
+      "options": [
+        {
+          "image": "https://d2q576s0wzfxtl.cloudfront.net/2017/08/08150426/Q36a-ENEM2009.jpg"
+        },
+        {
+          "image": "https://d2q576s0wzfxtl.cloudfront.net/2017/08/08150427/Q36b-ENEM2009.jpg"
+        },
+        {
+          "image": "https://d2q576s0wzfxtl.cloudfront.net/2017/08/08150428/Q36c-ENEM2009.jpg"
+        },
+        {
+          "image": "https://d2q576s0wzfxtl.cloudfront.net/2017/08/08150429/Q36d-ENEM2009.jpg"
+        },
+        {
+          "image": "https://d2q576s0wzfxtl.cloudfront.net/2017/08/08150430/Q36e-ENEM2009.jpg"
+        }
+      ],
+      "correct": 4,
+      "explanation": "A molécula adequada para compor a formulação de um protetor solar deve apresentar um anel aromático e, portanto, podemos desconsiderar a alternativa B. Além disso, o anel aromático deve estar conjugado com grupo carbonila (C=O). Isso significa que uma dupla ligação deve estar presente entre o anel e a carbonila, com isso não as moléculas das alternativas C e D não são boas opções. Por fim, a estrutura ideal ainda deve apresentar uma extremidade apolar, de modo a reduzir a solubilidade em água. Logo, a estrutura presente em E se torna a mais adequada, pois possui uma extremidade formada por carbono e hidrogênio, enquanto a molécula apresentada em A possui um grupo carboxila, que confere maior polaridade à estrutura e a deixa menos eficiente para os protetores solares.",
+      "video": "https://www.youtube.com/embed/Xav6P3gSYdo?si=BVj59eJPSNIVsxen",
+      "source": "https://xequematenem.com.br/blog/questao-36-enem-2009/"
+    }
+  ],
+  "2010": [
+    {
+      "id": 1,
+      "examLink": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia1_caderno2_amarelo.pdf",
+      "question": "(ENEM - 2010) As misturas efervescentes, em pó ou em comprimidos, são comuns para a administração de vitamina C ou de medicamentos para azia. Essa forma farmacêutica sólida foi desenvolvida para facilitar o transporte, aumentar a estabilidade de substâncias e, quando em solução, acelerar a absorção do fármaco pelo organismo. As matérias-primas que atuam na efervescência são, em geral, o ácido tartárico ou o ácido cítrico que reagem com um sal de caráter básico, como o bicarbonato de sódio (NaHCO3), quando em contato com a água. A partir do contato da mistura efervescente com a água, ocorre uma série de reações químicas simultâneas: liberação de íons, formação de ácido e liberação do gás carbônico — gerando a efervescência.<br>As equações a seguir representam as etapas da reação da mistura efervescente na água, em que foram omitidos os estados de agregação dos reagentes, e <b>H3A representa o ácido cítrico.</b>",
+      "text2": "<b>A ionização, a dissociação iônica, a formação do ácido e a liberação do gás ocorrem, respectivamente, nas seguintes etapas:</b>",
+      "options": [
+        { "text": "IV, I, II e III", "image": null },
+        { "text": "I, IV, III e II", "image": null },
+        { "text": "IV, III, I e II", "image": null },
+        { "text": "I, IV, II e III", "image": null },
+        { "text": "IV, I, III e II", "image": null }
+      ],
+      "correct": 4,
+      "source": "https://xequematenem.com.br/blog/questao-65-enem-2010/",
+      "explanation": "A ionização ocorre quando moléculas (formadas por ligações covalentes), como os hidrácidos por exemplo, se dissolvem em água e formando íons. Os íons não existiam previamente e foram formados após o contato com a água.<br><b>Exemplo:</b> H3A ⇌ 3 H+ + A– (ETAPA IV)<br>A dissociação iônica acontece com compostos iônicos (formados por ligações iônicas. Quando dissolvidos em água, eles se separam em íons positivos (cátions) e negativos (ânions).<br><b>Exemplo:</b> NaHCO3 ⇌ Na+ + HCO3– (ETAPA I)<br>A formação de um ácido ocorre quando o H⁺ do meio estabelece uma ligação química com outra espécie.<br><b>Exemplo:</b> HCO3– + H+ ⇌ H2CO3 (ETAPA III)<br>A liberação de gás ocorre quando um dos produtos formados se encontra no estado gasoso.<br><b>Exemplo:</b> H2CO3 ⇌ H2O + CO2 (ETAPA II)",
+      "video": "https://www.youtube.com/embed/klnvgLN8qK8?si=gnldoY4VhYd0L9ca",
+      "image": "https://xequematenem.com.br/blog/wp-content/webp-express/webp-images/uploads/2024/08/image-384.png.webp"
+    },
+    {
+      "id": 2,
+      "question": "(ENEM - 2010) No que tange à tecnologia de combustíveis alternativos, muitos especialistas em energia acreditam que os alcoóis vão crescer em importância em um futuro próximo. Realmente, alcoóis como metanol e etanol têm encontrado alguns nichos para uso doméstico como combustíveis há muitas décadas e, recentemente, vêm obtendo uma aceitação cada vez maior como aditivos, ou mesmo como substitutos para gasolina em veículos. Algumas das propriedades físicas desses combustíveis são mostradas no quadro seguinte.",
+      "text2": "Considere que, em pequenos volumes, o custo de produção de ambos os alcoóis seja o mesmo. Dessa forma, do ponto de vista econômico, é mais vantajoso utilizar:",
+      "options": [
+        {
+          "text": "metanol, pois sua combustão completa fornece, aproximadamente, 22,7 kJ de energia por litro de combustível queimado.",
+          "image": null
+        },
+        {
+          "text": "etanol, pois sua combustão completa fornece, aproximadamente, 29,7 kJ de energia por litro de combustível queimado.",
+          "image": null
+        },
+        {
+          "text": "metanol, pois sua combustão completa fornece, aproximadamente, 17,9 MJ de energia por litro de combustível queimado.",
+          "image": null
+        },
+        {
+          "text": "etanol, pois sua combustão completa fornece, aproximadamente, 23,5 MJ de energia por litro de combustível queimado.",
+          "image": null
+        },
+        {
+          "text": "etanol, pois sua combustão completa fornece, aproximadamente, 33,7 MJ de energia por litro de combustível queimado.",
+          "image": null
+        }
+      ],
+      "correct": 3,
+      "source": "https://descomplica.com.br/gabarito-enem/questoes/2010/primeiro-dia/no-que-tange-tecnologia-de-combustiveis-alternativos-muitos-especialistas/",
+      "explanation": "Primeiro temos que calcular a energia liberada para cada litro de metanol e etanol queimado partir das densidades. A densidade do metanol e do etanol é 0,79 g/ml, então 1L desses combustíveis tem massa igual a 790 g.<br>Metanol:<br>Massa molar do metanol = 32g<br>32g —— 726 kJ<br>790g —— X<br><p><br>X=17923 kJ ou 17,9 MJ<br><p><br>Etanol:<br>Massa molar do metanol = 46 g<br>46g —— 1367 kJ<br>790g —— Y<br><p><br>Y=23476 kJ ou 23,5 MJ<br><p><br>",
+      "video": "https://www.youtube.com/embed/OrTRLCl-gMc?si=NfiWvPB8oqyfsYrQ",
+      "image": "https://d2q576s0wzfxtl.cloudfront.net/2017/08/08150111/Q69-ENEM2011.jpg"
+    }
+  ],
+
+  "2011": [
+    {
+      "id": 1,
+      "examLink": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/dia1_caderno2_amarelo.pdf",
+      "question": "(ENEM - 2011) Um dos problemas dos combustíveis que contêm carbono é que sua queima produz dióxido de carbono. Portanto, uma característica importante, ao se escolher um combustível, é analisar seu calor de combustão (Hᶜº) definido como a energia liberada na queima completa de um mol de combustível no estado padrão. O quadro seguinte relaciona algumas substâncias que contêm carbono e seu Hᶜº.",
+      "text2": "Neste contexto, qual dos combustíveis, quando queimado completamente, libera mais dióxido de carbono no ambiente pela mesma quantidade de energia produzida?",
+      "options": [
+        {
+          "text": "Benzeno.",
+          "image": null
+        },
+        {
+          "text": "Metano.",
+          "image": null
+        },
+        {
+          "text": "Glicose.",
+          "image": null
+        },
+        {
+          "text": "Octano.",
+          "image": null
+        },
+        {
+          "text": "Etanol.",
+          "image": null
+        }
+      ],
+      "correct": 2,
+      "source": "https://descomplica.com.br/gabarito-enem/questoes/2011/primeiro-dia/um-dos-problemas-dos-combustiveis-que-contem-carbono/",
+      "explanation": "Fixando uma quantidade de energia qualquer para todas as substâncias, faz-se uma regra de três e analisa-se quanto de energia foi produzida pela mesma quantidade com todos os combustíveis da tabela, veja o modelo utilizando a glicose:<br><p><br>Balanceando a reação de combustão de 1 mol de glicose, produz-se 6 mol de CO₂, pois a glicose tem 6 carbonos.<br><p><br>6 mol de CO₂ —– 2808 KJ<br>X mol de CO₂ —– 1 KJ<br>X = 0,0021 mol de CO₂ (menor quantidade de CO₂ produzida por uma mesma quantidade de KJ)<br><p><br>OBS: Essa mesma conta deve ser feita com todos os combustíveis substituindo-se apenas as quantidades em mol de CO₂ produzidas em cada substância e sua energia liberada por mol de combustível, a menor quantidade produzida será a glicose.",
+      "video": "https://www.youtube.com/embed/RP-ZHcD50gU?si=YjWM35GK6-Nzx5GE",
+      "image": "https://d2q576s0wzfxtl.cloudfront.net/2017/08/08150015/Q50-ENEM2011.jpg"
+    },
+    {
+      "id": 2,
+      "question": "(ENEM - 2011) A pele humana, quando está bem hidratada, adquire boa elasticidade e aspecto macio e suave. Em contrapartida, quando está ressecada, perde sua elasticidade e se apresenta opaca e áspera. Para evitar o ressecamento da pele, é necessário, sempre que possível, utilizar hidratantes umectantes, feitos geralmente à base de glicerina e polietilenoglicol.",
+      "text2": "A retenção de água na superfície da pele promovida pelos hidratantes é consequência da interação dos grupos hidroxila dos agentes umectantes com a umidade contida no ambiente por meio de:",
+      "options": [
+        {
+          "text": "ligações iônicas.",
+          "image": null
+        },
+        {
+          "text": "forças de London.",
+          "image": null
+        },
+        {
+          "text": "ligações covalentes.",
+          "image": null
+        },
+        {
+          "text": "forças dipolo-dipolo.",
+          "image": null
+        },
+        {
+          "text": "ligações de hidrogênio.",
+          "image": null
+        }
+      ],
+      "correct": 4,
+      "source": "https://descomplica.com.br/gabarito-enem/questoes/2011/primeiro-dia/pele-humana-quando-esta-bem-hidratada-adquire-boa-elasticidade/",
+      "explanation": "A ligação de hidrogênio que ocorre na água é um tipo de interação intermolecular, onde o hidrogênio se liga a flúor, oxigênio ou nitrogênio. A retenção de água na superfície da pele é feita pela interação entre as hidroxilas presentes na glicerina e no polietilenoglicol com a água.",
+      "video": "https://www.youtube.com/embed/PVch3U8csYE?si=NeMU_tVMZyUg02Rg",
+      "image": "https://d2q576s0wzfxtl.cloudfront.net/2017/08/08150024/Q58-ENEM2011.jpg"
+    }
+  ],
+
+  "2012": [
+    {
+      "id": 1,
+      "examLink": "https://download.inep.gov.br/educacao_basica/enem/provas/2012/dia1_caderno2_amarelo.pdf",
+      "question": "(ENEM - 2012) A própolis é um produto natural conhecido por suas propriedades anti-inflamatórias e cicatrizantes. Esse material contém mais de 200 compostos identificados até o momento. Dentre eles, alguns são de estrutura simples, como é o caso do C₆H₅CO₂CH₂CH₃, cuja estrutura está mostrada a seguir.",
+      "text2": "O ácido carboxílico e o álcool capazes de produzir o éster em apreço por meio da reação de esterificação são, respectivamente:",
+      "options": [
+        {
+          "text": "ácido benzoico e etanol.",
+          "image": null
+        },
+        {
+          "text": "ácido propanoico e hexanol.",
+          "image": null
+        },
+        {
+          "text": "ácido fenilacético e metanol.",
+          "image": null
+        },
+        {
+          "text": "ácido propiônico e cicloexanol.",
+          "image": null
+        },
+        {
+          "text": "ácido acético e álcool benzílico.",
+          "image": null
+        }
+      ],
+      "correct": 0,
+      "source": "?",
+      "explanation": "Reações de esterificação têm como produtos éster e água. Ao fazer uma quebra da ligação O-CH₂CH₃ do éster dado na questão e acrescentar os íons H⁺ e o íon OH⁻, provenientes da água, ao “O” e ao “CH₂CH₃” respectivamente, formará o ácido benzóico e etanol.",
+      "video": "https://www.youtube.com/embed/yERe78bSbjU?si=C4RF_t8Pe97zWUVw",
+      "image": "https://d2q576s0wzfxtl.cloudfront.net/2017/08/08145931/Q58-ENEM2012.jpg"
+    },
+    {
+      "id": 2,
+      "question": "(ENEM - 2012) A produção mundial de alimentos poderia se reduzir a 40% da atual sem a aplicação de controle sobre as pragas agrícolas. Por outro lado, o uso frequente dos agrotóxicos pode causar contaminação em solos, águas superficiais e subterrâneas, atmosfera e alimentos. Os biopesticidas, tais como a piretrina e a coronopilina, têm sido uma alternativa na diminuição dos prejuízos econômicos, sociais e ambientais gerados pelos agrotóxicos.",
+      "text2": "Identifique as funções orgânicas presentes simultaneamente nas estruturas dos dois biopesticidas apresentados:",
+      "options": [
+        {
+          "text": "Éter e éster.",
+          "image": null
+        },
+        {
+          "text": "Cetona e éster.",
+          "image": null
+        },
+        {
+          "text": "Álcool e cetona.",
+          "image": null
+        },
+        {
+          "text": "Aldeído e cetona.",
+          "image": null
+        },
+        {
+          "text": "Éter e ácido carboxílico.",
+          "image": null
+        }
+      ],
+      "correct": 1,
+      "source": "https://descomplica.com.br/gabarito-enem/questoes/2012/primeiro-dia/producao-mundial-de-alimentos-poderia-se-reduzir-40-da-atual/",
+      "explanation": "Carbono secundário ligado por uma dupla a uma hidroxila (caracteriza uma cetona) está presente nos dois compostos. Na Piretrina identificamos uma carbonila de éster em cadeia aberta e Coronopilina, a mesma carbonila, em cadeia fechada.",
+      "video": "https://www.youtube.com/embed/jbm9UkinB0s?si=GF11fDaFGtY4Ozww",
+      "image": "https://d2q576s0wzfxtl.cloudfront.net/2017/08/08145924/Q49-ENEM12.jpg"
+    }
+  ],
+
+  "2013": [
+    {
+      "id": 1,
+      "examLink": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/dia1_caderno2_amarelo.pdf",
+      "question": "(ENEM - 2013) Uma das etapas do tratamento da água é a desinfecção, sendo a cloração o método mais empregado. Esse método consiste na dissolução do gás cloro numa solução sob pressão e sua aplicação na água a ser desinfectada. As equações das reações químicas envolvidas são:<br><p>Cl₂(g) + ₂ H₂O (l) ⇌ HClO (aq) + H₃O⁺ (aq) + Cl⁻ (aq)<br><p>HClO (aq) + H₂O (l) ⇌ H₃O⁺(aq) + ClO⁻(aq) pKₐ = − log Kₐ = 7,53<br><p>A ação desinfetante é controlada pelo ácido hipocloroso, que possui um potencial de desinfecção cerca de 80 vezes superior ao ânion hipoclorito. O pH do meio é importante, porque influencia na extensão com que o ácido hipocloroso se ioniza.<br><p>Para que a desinfecção seja mais efetiva, o pH da água a ser tratada deve estar mais próximo de",
+      "options": [
+        { "text": "5", "image": null },
+        { "text": "7", "image": null },
+        {
+          "text": "9",
+          "image": null
+        },
+        {
+          "text": "14",
+          "image": null
+        }
+      ],
+      "correct": 1,
+      "source": "https://descomplica.com.br/gabarito-enem/questoes/2013/primeiro-dia/uma-das-etapas-do-tratamento-da-agua-e-a-desinfeccao-sendo-a-cloracao-o-metodo-mais-empregado/",
+      "explanation": "A presença de H+ desloca o segundo equilíbrio para a esquerda, para a formação de mais HClO. Porém, se o pH for reduzido a um número muito baixo, o primeiro equilíbrio seria deslocado para a esquerda, eliminando a substância desejada no processo, o HClO.",
+      "video": "https://www.youtube.com/embed/QiNsjKs39lg?si=yxuJ30IGZJ0BVrHl"
+    },
+    {
+      "id": 2,
+      "question": "(ENEM - 2013) O citral, substância de odor fortemente cítrico, é obtido a partir de algumas plantas como o capim-limão, cujo óleo essencial possui aproximadamente 80%, em massa, da substância. Uma de suas aplicações é na fabricação de produtos que atraem abelhas, especialmente do gênero Apis, pois seu cheiro é semelhante a um dos feromônios liberados por elas. Sua fórmula molecular é C10H16O, com uma cadeia alifática de oito carbonos, duas insaturações, nos carbonos 2 e 6; e dois grupos substituintes metila, nos carbonos 3 e 7. O citral possui dois isômeros geométricos, sendo o trans o que mais contribui para o forte odor.",
+      "text2": "Para que se consiga atrair um maior número de abelhas para uma determinada região, a molécula que deve estar presente em alta concentração no produto a ser utilizado é:",
+      "options": [
+        {
+          "image": "https://d2q576s0wzfxtl.cloudfront.net/2017/08/08145620/AA.png"
+        },
+        {
+          "image": "https://d2q576s0wzfxtl.cloudfront.net/2017/08/08145620/BB.png"
+        },
+        {
+          "image": "https://d2q576s0wzfxtl.cloudfront.net/2017/08/08145621/CC.png"
+        },
+        {
+          "image": "https://d2q576s0wzfxtl.cloudfront.net/2017/08/08145622/DD.png"
+        },
+        {
+          "image": "https://d2q576s0wzfxtl.cloudfront.net/2017/08/08145623/EE.png"
+        }
+      ],
+      "correct": 0,
+      "source": "?",
+      "explanation": "Para atrair mais abelhas para uma área, o produto usado deve ter alta concentração de citral, uma molécula com dois tipos de estrutura chamados isômeros geométricos:<br>➤ Trans: grupos em lados opostos (tem cheiro mais forte).<br>➤ Cis: grupos no mesmo lado.<br><p>Para existir esse tipo de isomeria, a molécula precisa ter:<br>1. Uma ligação dupla entre carbonos.<br>2. Grupos diferentes ligados aos carbonos da dupla ligação.<br><p>Com isso, a resposta correta é a letra a.",
+      "video": "https://www.youtube.com/embed/iPyfuMy8jA8?si=IZ9UO8GeAgF12jYq"
+    }
+  ],
+
+  "2014": [
+    {
+      "id": 1,
+      "examLink": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D1_CD2.pdf",
+      "question": "(ENEM - 2014) Visando minimizar impactos ambientais, a legislação brasileira determina que resíduos químicos lançados diretamente no corpo receptor tenham pH entre 5,0 e 9,0. Um resíduo líquido aquoso gerado em um processo industrial tem concentração de íons hidroxila igual a 1,0 × 10⁻¹⁰ mol/L. Para atender à legislação, um químico separou as seguintes substâncias, disponibilizadas no almoxarifado da empresa: CH₃COOH, Na₂SO₄, CH₃OH, K₂CO₃ e NHCl. Para que o resíduo possa ser lançado diretamente no corpo receptor, qual substância poderia ser empregada no ajuste do pH?",
+      "options": [
+        {
+          "text": "CH3COOH",
+          "image": null
+        },
+        {
+          "text": "Na2SO4",
+          "image": null
+        },
+        {
+          "text": "CH3OH",
+          "image": null
+        },
+        {
+          "text": "K2CO3",
+          "image": null
+        },
+        {
+          "text": "NH4Cl",
+          "image": null
+        }
+      ],
+      "correct": 3,
+      "source": "https://descomplica.com.br/gabarito-enem/questoes/2014/primeiro-dia/visando-minimizar-impactos-ambientais-a-legislacao-brasileira-determina-que-residuos-quimicos/?cor=azul&idioma=espanhol",
+      "explanation": "Com uma concentração de hidroxila (OH) igual a 1×10-¹⁰mol/L tem-se um pOH = 10; calcula-se por: pOH = – log [OH]. Como pH + pOH = 14, tem-se que pH = 4. O pH ideal, segundo a questão, está entre 5 e 9. Sendo assim, há a necessidade de aumento do pH. Para isso, uma solução de caráter básico deve ser empregada no meio. <br><br>Analisando cada uma temos: <br><br>CH₃COOH = ácida <br><br>Na₂SO₄ = neutro, sal vindo de ácido e base forte <br><br>CH₃OH = ácido <br><br>K₂CO₃ = básico sal de base forte e ácido fraco <br><br>NH₄Cl = ácido sal de base fraca e ácido forte <br><br>Com isso, K₂CO₃ é o único básico.",
+      "video": "https://www.youtube.com/embed/n3imdgC1iCU?si=RX4P2oqutAB9KkHf"
+    },
+    {
+      "id": 2,
+      "question": "(ENEM - 2014) Grandes fontes de emissão do gás dióxido de enxofre são as indústrias de extração de cobre e níquel, em decorrência da oxidação dos minérios sulfurados. Para evitar a liberação desses óxidos na atmosfera e a consequente formação da chuva ácida, o gás pode ser lavado, em um processo conhecido como dessulfurização, conforme mostrado na equação (1).<br><p><b> CaCO₃(s) + SO₂(g) → CaSO₃(s) + CO₂(g) (1)</b></p> Por sua vez, o sulfito de cálcio formado pode ser oxidado, com o auxílio do ar atmosférico, para a obtenção do sulfato de cálcio, como mostrado na equação (2). Essa etapa é de grande interesse porque o produto da reação, popularmente conhecido como gesso, é utilizado para fins agrícolas.<br><p><b> 2 CaSO₃(s) + O₂(g) → 2 CaSO₄(s) (2)</b></p> As massas molares dos elementos carbono, oxigênio, enxofre e cálcio são iguais a 12 g/mol, 16 g/mol, 32 g/mol e 40 g/mol, respectivamente. Considerando um rendimento de 90% no processo, a massa de gesso obtida, em gramas, por mol de gás retido é mais próxima de?",
+      "options": [
+        {
+          "text": "64",
+          "image": null
+        },
+        {
+          "text": "108",
+          "image": null
+        },
+        {
+          "text": "122",
+          "image": null
+        },
+        {
+          "text": "136",
+          "image": null
+        },
+        {
+          "text": "245",
+          "image": null
+        }
+      ],
+      "correct": 2,
+      "source": "https://descomplica.com.br/gabarito-enem/questoes/2014/primeiro-dia/grandes-fontes-de-emissao-do-gas-dioxido-de-enxofre-sao-as-industrias-de-extracao-de-cobre-e-niquel/",
+      "explanation": "Um caso de estequiometria em reações sucessivas, onde a pergunta relaciona SO2 com CaSO4. Como esses dois não estão em relação direta, utiliza-se o termo em comum nas duas equações, no caso: CaSO3. A proporção entre CaSO3 e CaSO4 é de 1:1. 1 mol de CaSO3 (o que é justamente o comando da questão), que produzem 136 g de CaSO4 (massa molar) para 100%. Como o rendimento é de 90%, temos que: 90% de 136 é 122,4. Logo, a melhor resposta é letra C (122 g).",
+      "video": "https://www.youtube.com/embed/GiFu_bAnGf4?si=8ERqvlnKDq1XQyOW"
+    }
+  ],
+
+  "2015": [
+    {
+      "id": 1,
+      "examLink": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/2015_PV_impresso_D1_CD2.pdf",
+      "question": "(ENEM - 2015) Para proteger estruturas de aço da corrosão, a indústria utiliza uma técnica chamada galvanização. Um metal bastante utilizado nesse processo é o zinco, que pode ser obtido a partir de um minério denominado esfalerita (ZnS), de pureza 75%. Considere que a conversão do minério em zinco metálico tem rendimento de 80% nesta sequência de equações químicas:<br><p>2 Znₛ + 3 O₂ → 2 ZnO + 2 SO₂<br>ZnO + CO → Zn + CO₂<br><p>Considere as massas molares: ZnS (97 g/mol); O2 (32 g/mol); ZnO (81 g/mol); SO2 (64 g/mol); CO (28 g/mol); CO2 (44 g/mol); e Zn (65 g/mol).<br>Que valor mais próximo de massa de zinco metálico, em quilogramas, será produzido a partir de 100 kg de esfalerita?",
+      "options": [
+        {
+          "text": "25",
+          "image": null
+        },
+        {
+          "text": "33",
+          "image": null
+        },
+        {
+          "text": "40",
+          "image": null
+        },
+        {
+          "text": "50",
+          "image": null
+        },
+        {
+          "text": "54",
+          "image": null
+        }
+      ],
+      "correct": 2,
+      "source": "https://descomplica.com.br/gabarito-enem/questoes/2015/primeiro-dia/para-proteger-estruturas-de-aco-da-corrosao-a-industria-utiliza-uma-tecnica-chamada-galvanizacao/",
+      "explanation": "2ZnS + 3O₂ → 2ZnO + 2SO₂<br>2ZnO + 2CO → 2Zn + 2CO₂<br><p>2ZnS + 3O₂ + 2CO → 2SO₂ + 2Zn + 2CO₂<br>2 × 97 g —————— 2 × 65 g × 0,80<br>0,75 × 100 kg —————— mₓₙ<br>mₓₙ = 40,206 kg ≈ 40 kg",
+      "video": "https://www.youtube.com/embed/_ooGl0-b-aY?si=5KiDS1PYAL57ILeh"
+    },
+    {
+      "id": 2,
+      "question": "(ENEM - 2015) A calda bordalesa é uma alternativa empregada no combate a doenças que afetam folhas de plantas. Sua produção consiste na mistura de uma solução aquosa de sulfato de cobre(II), CuSO4, com óxido de cálcio, CaO, e sua aplicação só deve ser realizada se estiver levemente básica. A avaliação rudimentar da basicidade dessa solução é realizada pela adição de três gotas sobre uma faca de ferro limpa. Após três minutos, caso surja uma mancha avermelhada no local da aplicação, afirma-se que a calda bordalesa ainda não está com a basicidade necessária. O quadro apresenta os valores de potenciais padrão de redução (E°) para algumas semirreações de redução.",
+      "image": "https://media.brainly.com.br/image/rs:fill/w:640/q:75/plain/https://pt-static.z-dn.net/files/dae/59fabb3afeb45e06970a2a707b89d397.png",
+      "text2": "A equação química que representa a reação de formação da mancha avermelhada é:",
+      "options": [
+        {
+          "text": "Ca²⁺ (aq) + 2 Cu⁺ (aq) → Ca (s) + 2 Cu²⁺ (aq)",
+          "image": null
+        },
+        {
+          "text": "Ca²⁺ (aq) + 2 Fe²⁺ (aq) → Ca (s) + 2 Fe³⁺ (aq)",
+          "image": null
+        },
+        {
+          "text": "Cu²⁺ (aq) + 2 Fe²⁺ (aq) → Cu (s) + 2 Fe³⁺ (aq)",
+          "image": null
+        },
+        {
+          "text": "3 Ca²⁺ (aq) + 2 Fe (s) → 3 Ca (s) + 2 Fe³⁺ (aq)",
+          "image": null
+        },
+        {
+          "text": "3 Cu²⁺ (aq) + 2 Fe (s) → 3 Cu (s) + 2 Fe³⁺ (aq)",
+          "image": null
+        }
+      ],
+      "correct": 4,
+      "source": "https://descomplica.com.br/gabarito-enem/questoes/2015/primeiro-dia/a-calda-bordalesa-e-uma-alternativa-empregada-no-combate-a-doencas-que-afetam-folhahttps://sisq.elitecampinas.com.br/GabaritoVestibulares/VisualizarQuestaoLista?id_questao_lista=7265756&vestibular=enem&ano=2016&prova_vestibular_id=357882s-de-plantas/",
+      "explanation": "A reação ocorre numa faca de ferro (contém ferro metálico em sua composição) com CuSO4 (solução com Cu⁺²) e CaO (Ca⁺² presente). A pilha gerada oxida o ferro metálico e reduz o cobre II (já que o cálcio produziria um processo eletroquímico com ddp negativa – não espontâneo), logo: <br>3 Cu²⁺(aq) + 2 Fe(s) → 3 Cu(s) + 2 Fe³⁺(aq)",
+      "video": "https://www.youtube.com/embed/5Y3bVkN4nQA?si=vG55qXiJGMaEU4H2"
+    }
+  ],
+
+  "2016": [
+    {
+      "id": 1,
+      "examLink": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D1_CD2.pdf",
+      "question": "(ENEM - 2016) O aquecimento de um material por irradiação com micro-ondas ocorre por causa da interação da onda eletromagnética com o dipolo elétrico da molécula. Um importante atributo do aquecimento por micro-ondas é a absorção direta da energia pelo material a ser aquecido. Assim, esse aquecimento é seletivo e dependerá, principalmente, da constante dielétrica e da frequência de relaxação do material. O gráfico mostra a taxa de aquecimento de cinco solventes sob irradiação de micro-ondas.",
+      "text2": "No gráfico, qual solvente apresenta taxa média de aquecimento mais próxima de zero, no intervalo de 0 s a 40 s?",
+      "options": [
+        {
+          "text": "H2O",
+          "image": null
+        },
+        {
+          "text": "CH3OH",
+          "image": null
+        },
+        {
+          "text": "CH3CH2OH",
+          "image": null
+        },
+        {
+          "text": "CH3CH2CH2OH",
+          "image": null
+        },
+        {
+          "text": "CH3CH2CH2CH2CH2CH3 ",
+          "image": null
+        }
+      ],
+      "correct": 4,
+      "source": "https://sisq.elitecampinas.com.br/GabaritoVestibulares/VisualizarQuestaoListaid_questao_lista=7265756&vestibular=enem&ano=2016&prova_vestibular_id=357882",
+      "explanation": "Considerando o intervalo de 0 a 40 s, o solvente que apresentará a taxa de aquecimento mais próxima de zero è aquele que tem a menor variação de temperatura (eixo y). No gráfico, o solvente que corresponde a essa situação é o hexano, cuja fórmula estrutural é:",
+      "video": "https://www.youtube.com/embed/BG3UHTFbj-Y?si=CDj5fCn3TcfjI7ze",
+      "image": "https://d2q576s0wzfxtl.cloudfront.net/2017/07/08145201/graphs.png"
+    },
+    {
+      "id": 2,
+      "question": "(ENEM - 2016) Após seu desgaste completo, os pneus podem ser queimados para a geração de energia. Dentre os gases gerados na combustão completa da borracha vulcanizada, alguns são poluentes e provocam a chuva ácida. Para evitar que escapem para a atmosfera, esses gases podem ser borbulhados em uma solução aquosa contendo uma substância adequada. Considere as informações das substâncias listadas no quadro.",
+      "text2": "Dentre as substâncias listadas no quadro, aquela capaz de remover com maior eficiência os gases poluentes é o(a).",
+      "options": [
+        {
+          "text": "fenol",
+          "image": null
+        },
+        {
+          "text": "piridina",
+          "image": null
+        },
+        {
+          "text": "metilamina",
+          "image": null
+        },
+        {
+          "text": "hidrogenofosfato de potássio",
+          "image": null
+        },
+        {
+          "text": "hidrogenosulfato de potássio.",
+          "image": null
+        }
+      ],
+      "correct": 3,
+      "source": "https://descomplica.com.br/gabarito-enem/questoes/2016/primeiro-dia/apos-seu-desgaste-completo-os-pneus-podem-ser-queimados-para-a-geracao-de-energia/",
+      "explanation": "Aqui é importante entender que os gases que produzem a chuva ácida são os óxidos ácidos (exemplos: CO₂ e SO₃). Como eles são ácidos, faz -se necessário uma substância básica para neutralizar seus efeitos. Dentre as três substâncias básicas presentes na tabela (que liberam OH– como produto da reação), a que terá maior força para neutralizar a ação dos gases será a que apresentar maior valor de constante de equilíbrio, o hidrogenofosfato de potássio.",
+      "video": "https://www.youtube.com/embed/-5GQlu3B9fQ?si=E9xQ6N9WEk-7nyI4",
+      "image": "https://d2q576s0wzfxtl.cloudfront.net/2017/07/08145150/table.png"
+    }
+  ],
+
+  "2017": [
+    {
+      "id": 1,
+      "examLink": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD5.pdf",
+      "question": "(ENEM - 2017) O biodiesel é um biocombustível obtido a partir de fontes renováveis, que surgiu como alternativa ao uso do diesel de petróleo para motores de combustão interna. Ele pode ser obtido pela reação entre triglicerídeos, presentes em óleos vegetais e gorduras animais, entre outros, e álcoois de baixa massa molar, como o metanol ou etanol, na presença de um catalisador, de acordo com a equação química:",
+      "text2": "A função química presente no produto que representa o biodiesel é",
+      "options": [
+        {
+          "text": "éter",
+          "image": null
+        },
+        {
+          "text": "éster",
+          "image": null
+        },
+        {
+          "text": "álcool",
+          "image": null
+        },
+        {
+          "text": "cetona",
+          "image": null
+        },
+        {
+          "text": "ácido carboxílico",
+          "image": null
+        }
+      ],
+      "correct": 1,
+      "source": "https://sisq.elitecampinas.com.br/GabaritoVestibulares/VisualizarQuestaoLista?id_questao_lista=7442740&vestibular=enem&ano=2017&prova_vestibular_id=361584",
+      "explanation": "O biodiesel consiste numa mistura de ésteres metílicos (ou etílicos), formada na reação descrita no enunciado, denominada transesterificação (do tipo alcoólise). Assim, pode-se identificar a função orgânica presente nas substâncias que formam o biodiesel:",
+      "video": "https://www.youtube.com/embed/i8L3cW-SsTM?si=kypcl6qGrYuzJkbx",
+      "image": "https://d2q576s0wzfxtl.cloudfront.net/2017/11/08151544/Capturar-13.jpg"
+    },
+    {
+      "id": 2,
+      "question": "(ENEM - 2017) A eletrólise é um processo não espontâneo de grande importância para a indústria química, aplicado na obtenção de gás cloro e hidróxido de sódio a partir de uma solução aquosa de cloreto de sódio, utilizando uma célula eletroquímica, como ilustrado.",
+      "text2": "No processo eletrolítico ilustrado, o produto secundário obtido é o:",
+      "options": [
+        {
+          "text": "vapor de água",
+          "image": null
+        },
+        {
+          "text": "oxigênio molecular",
+          "image": null
+        },
+        {
+          "text": "hipoclorito de sódio",
+          "image": null
+        },
+        {
+          "text": "hidrogênio molecular",
+          "image": null
+        },
+        {
+          "text": "cloreto de hidrogênio",
+          "image": null
+        }
+      ],
+      "correct": 3,
+      "source": "https://sisq.elitecampinas.com.br/GabaritoVestibulares/VisualizarQuestaoLista?id_questao_lista=7442748&vestibular=enem&ano=2017&prova_vestibular_id=361584",
+      "explanation": "A eletrolise é um processo não espontâneo, ou seja, termodinamicamente, o AG > 0, seja a ignea ou a aquosa, como a citada nesta questão. No caso da eletrólise aquosa, o cloreto de sódio, um sal solúvel em água, apresenta as seguintes equações: <p> NaCl(aq) → Na⁺(aq) + Cl⁻(aq) <p> H₂O(l) → H⁺(aq) + OH⁻(aq) <p> Abaixo são apresentadas as semirreações do cátodo e do ânodo utilizando um eletrodo não ativo de carbono: <p> Cátodo (-): 2 H₂O(l) + 2e⁻ → H₂(g) + 2OH⁻(aq) <p>Ánodo (+): 2 Cl⁻(aq) → Cl₂(g) + 2e⁻ <p> Eq.Global: 2 H₂O(l) + 2Cl⁻(aq) → H₂(g) + 2OH⁻(aq) + Cl2(g) <p>O produto secundário, como indicado acima, é o gás hidrogênio (H2), além disso, pode-se verificar que a solução deve apresentar uma coloração entre rosa e vermelha próxima ao eletrodo negativo, dependendo do pH, na presença do indicador fenolftaleina.",
+      "video": "https://www.youtube.com/embed/gDuQSC0NX5k?si=NocIP_S1DpFvkcmu",
+      "image": "https://d2q576s0wzfxtl.cloudfront.net/2017/11/08151641/enem2017_azul_95.png"
+    }
+  ],
+
+  "2018": [
+    {
+      "id": 1,
+      "examLink": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2DIA_05_AMARELO_BAIXA.pdf",
+      "question": "(ENEM - 2018)O grafeno é uma forma alotrópica do carbono constituído por uma folha planar (arranjo bidimensional) de átomos de carbono compactados e com a espessura de apenas um átomo. Sua estrutura é hexagonal, conforme a figura.",
+      "text2": "Nesse arranjo, os átomos de carbono possuem hibridação.",
+      "options": [
+        {
+          "text": "sp de geometria linear",
+          "image": null
+        },
+        {
+          "text": "sp² de geometria trigonal planar",
+          "image": null
+        },
+        {
+          "text": "sp³ alternados com carbonos com hibridação sp de geometria linear",
+          "image": null
+        },
+        {
+          "text": "sp³d de geometria planar",
+          "image": null
+        },
+        {
+          "text": "sp³d² com geometria hexagonal planar",
+          "image": null
+        }
+      ],
+      "correct": 1,
+      "source": "https://sisq.elitecampinas.com.br/GabaritoVestibulares/VisualizarQuestaoLista?id_questao_lista=7704901&vestibular=enem&ano=2018&prova_vestibular_id=368012",
+      "explanation": "O grafeno é uma das formas alotrópicas do carbono, sendo formado por uma rede hexagonal na qual cada átomo de carbono está ligado a três outros átomos, como a própria figura do enunciado sugere. Desse modo, cada carbono estabelece duas ligações simples e uma ligação dupla: Sendo assim, os carbonos apresentam três ligações sigmas (provenientes de orbitais hibridizados) e uma ligação pi (proveniente de um orbital p puro). Analisando a distribuição eletrônica do carbono ( ₆C = 1s² 2s² 2p²), sua camada de valència apresenta apenas 2 elétrons desemparelhados, logo, para estabelecer três ligações do tipo sigma, os orbitais sofreram hibridização. Assim, os carbonos apresentam hibridização do tipo sp². Esses orbitais apresentam ângulo de separação de 120° Portanto, como o átomo apresenta apenas três regiões eletrônicas e estas estão com ligantes, a geometria molecular será trigonal plana.",
+      "video": "https://www.youtube.com/embed/bFUHfuA0PbU?si=elpw9GzPj4khoY6B",
+      "image": "https://d2q576s0wzfxtl.cloudfront.net/2018/11/20165016/12019.png"
+    },
+    {
+      "id": 2,
+      "question": "(ENEM - 2018) A identificação de riscos de produtos perigosos para o transporte rodoviário é obrigatória e realizada por meio da sinalização composta por um painel de segurança, de cor alaranjada, e um rótulo de risco. As informações inseridas no painel de segurança e no rótulo de risco, conforme determina a legislação, permitem que se identifique o produto transportado e os perigos a ele associados. A sinalização mostrada identifica uma substância que está sendo transportada em um caminhão.",
+      "text2": "BRASIL. Resolução n. 420, de 12/02/2004, da Agencia Nacional de Transportes Terrestres (ANTT)/Ministério dos Transportes (adaptado). ABNT. NBR 7500: identificação para o transporte terrestre, manuseio, movimentação e armazenamento de produtos. Rio de Janeiro, 2004 (adaptado).<p>Os três algarismos da parte superior do painel indicam o 'Número de risco'. O número 268 indica tratar-se de um gás (2), tóxico (6) e corrosivo (8). Os quatro dígitos da parte inferior correspondem ao 'Numero ONU', que identifica o produto transportado.<p>Considerando a identificaçao apresentada no caminhão, o código 1005 corresponde à substância:",
+      "options": [
+        {
+          "text": "eteno (C₂H₄)",
+          "image": null
+        },
+        {
+          "text": "nitrogênio (N₂)",
+          "image": null
+        },
+        {
+          "text": "amônia (NH₃)",
+          "image": null
+        },
+        {
+          "text": "propano (C₃H₈)",
+          "image": null
+        },
+        {
+          "text": "dióxido de carbono (CO₂)",
+          "image": null
+        }
+      ],
+      "correct": 2,
+      "source": "https://brainly.com.br/tarefa/60585895",
+      "explanation": "O número ONU 1005 identifica especificamente a amônia anidra, que é um gás tóxico e corrosivo. Conforme a legislação, o painel de segurança laranja com o número de risco 268 indica um gás (2), tóxico (6) e corrosivo (8), características que correspondem à amônia. O número ONU 1005 corresponde especificamente à amônia anidra (NH₃). Os números ONU são atribuídos pela Organização das Nações Unidas (ONU) para identificar substâncias perigosas transportadas internacionalmente, garantindo um padrão de segurança global. Interpretação do painel de segurança: Conforme a descrição, o painel de segurança laranja com os números 268 na parte superior indica um gás (2), tóxico (6) e corrosivo (8). A amônia anidra é um gás que possui essas características, sendo tóxica quando inalada e altamente corrosiva.",
+      "video": "https://www.youtube.com/embed/KVjVbyEwv8I?si=YwKWQrDGbI0H9mWf",
+      "image": "https://d2q576s0wzfxtl.cloudfront.net/2018/11/19195406/9213.png"
+    }
+  ],
+
+  "2019": [
+    {
+      "id": 1,
+      "examLink": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD5.pdf",
+      "question": "(ENEM - 2019) Para realizar o desentupimento de tubulações deesgotos residenciais, é utilizada uma mistura sólidacomercial que contém hidróxido de sódio (NaOH) e outraespécie química pulverizada. Quando é adicionadaágua a essa mistura, ocorre uma reação que libera gáshidrogênio e energia na forma de calor, aumentando aeficiência do processo de desentupimento. Considere ospotenciais padrão de redução (E⁰) da água e de outrasespécies em meio básico, expressos no quadro.",
+      "text2": "Qual é a outra espécie que está presente na composiçãoda mistura sólida comercial para aumentar sua eficiência?",
+      "options": [
+        {
+          "text": "Al",
+          "image": null
+        },
+        {
+          "text": "Co",
+          "image": null
+        },
+        {
+          "text": "Cu(OH)₂",
+          "image": null
+        },
+        {
+          "text": "Fe(OH)₂",
+          "image": null
+        },
+        {
+          "text": "Pb",
+          "image": null
+        }
+      ],
+      "correct": 0,
+      "source": "https://xequematenem.com.br/blog/questao-91-enem-2019/",
+      "explanation": "A questão menciona a produção de gás hidrogênio a partir da água por meio de um processo eletroquímico (pilha). Portanto, para que ocorra a liberação do gás em questão, a água deve ser reduzida. Nesse contexto, a semirreação em questão é: <br><br>2 H₂O(l) + 2 e⁻ → H²(g) + 2 OH⁻(aq) <br><br>Isso significa que a outra espécie presente na composição da mistura sólida deve oxidar e fornecer elétrons para a água. Sendo assim, é necessário que a espécie tenha o maior potencial de oxidação (maior tendência a oxidar). Pela tabela, podemos concluir que o maior potencial de oxidação é do Al.",
+      "video": "https://www.youtube.com/embed/vna0ACYFAEY?si=08cbCryex9RzsewB",
+      "image": "https://d2q576s0wzfxtl.cloudfront.net/2019/11/06233500/enem31.png"
+    },
+    {
+      "id": 2,
+      "question": "(ENEM - 2019) O odor que permanece nas mãos após o contato com alho pode ser eliminado pela utilização de um “sabonete de aço inoxidável”, constituído de aço inox (74%), cromo e níquel. A principal vantagem desse “sabonete” é que ele não se desgasta com o uso. Considere que a principal substância responsável pelo odor de alho é a alicina (estrutura I) e que, para que o odor seja eliminado, ela seja transformada na estrutura II.",
+      "text2": "Na conversão de I em II, o “sabonete” atuará como um:",
+      "options": [
+        {
+          "text": "ácido",
+          "image": null
+        },
+        {
+          "text": "redutor",
+          "image": null
+        },
+        {
+          "text": "eletrólito",
+          "image": null
+        },
+        {
+          "text": "tensoativo",
+          "image": null
+        },
+        {
+          "text": "catalisador",
+          "image": null
+        }
+      ],
+      "correct": 4,
+      "source": "https://sisq.elitecampinas.com.br/GabaritoVestibulares/VisualizarQuestao?id_questao_tipo=1406",
+      "explanation": "De acordo com o texto, o 'sabonete' não se desgasta ao ser utilizado, isto é, os compostos do sabonete não são consumidos durante a transformação de uma substância na outra. Isso o caracteriza como um <b>catalisador</b>, substância capaz de aumentar a velocidade de uma reação sem ser efetivamente consumida no processo.",
+      "video": "https://www.youtube.com/embed/V5cu8ucmnv4?si=73Gz9F8nM4PmFy6B",
+      "image": "https://d2q576s0wzfxtl.cloudfront.net/2019/11/06191135/imagem8.png"
+    }
+  ],
+
+  "2020": [
+    {
+      "id": 1,
+      "examLink": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD5.pdf",
+      "question": "(ENEM - 2020) Um microempresário do ramo de cosméticos utiliza óleos essenciais e quer produzir um creme com fragrância de rosas. O principal componente do óleo de rosas tem cadeia poli-insaturada e hidroxila em carbono terminal. O catálogo dos óleos essenciais apresenta, para escolha da essência, estas estruturas químicas:",
+      "text2": "Qual substância o empresário deverá utilizar?",
+      "options": [
+        {
+          "text": "1",
+          "image": null
+        },
+        {
+          "text": "2",
+          "image": null
+        },
+        {
+          "text": "3",
+          "image": null
+        },
+        {
+          "text": "4",
+          "image": null
+        },
+        {
+          "text": "5",
+          "image": null
+        }
+      ],
+      "correct": 0,
+      "source": "https://descomplica.com.br/gabarito-enem/questoes/2020/segundo-dia/qual-substancia-o-empresario-devera-utilizar/",
+      "explanation": "Questão que citava as características de uma molécula orgânica presente em um óleo essencial. A molécula escolhida deveria apresentar cadeia poli-insaturada e com hidroxila (OH) terminal. Dentre as opções, a única que satisfazia as características citadas acima era a molécula da alternativa A. Essa molécula apresenta duas ligações duplas e uma hidroxila ligada a um carbono primário, o que caracteriza uma hidroxila terminal.",
+      "video": "https://www.youtube.com/embed/QS4e_mUgwB8?si=HduLWadZsQuRLbDH",
+      "image": "https://d2q576s0wzfxtl.cloudfront.net/2021/01/25214047/quim.png"
+    },
+    {
+      "id": 2,
+      "question": "(ENEM - 2020) Megaespetáculos com queima de grande quantidade de fogos de artifício em festas de final de ano são muito comuns no Brasil. Após a queima, grande quantidade de material particulado permanece suspensa no ar. Entre os resíduos, encontram-se compostos de sódio, potássio, bário, cálcio, chumbo, antimônio, cromo, além de percloratos e gases, como os dióxidos de nitrogênio e enxofre.",
+      "text2": "Esses espetáculos promovem riscos ambientais, porque:",
+      "options": [
+        {
+          "text": "as substâncias resultantes da queima de fogos de artifício são inflamáveis.",
+          "image": null
+        },
+        {
+          "text": "os resíduos produzidos na queima de fogos de artifício ainda são explosivos.",
+          "image": null
+        },
+        {
+          "text": "o sódio e o potássio são os principais responsáveis pela toxicidade do produto da queima.",
+          "image": null
+        },
+        {
+          "text": "os produtos da queima contêm metais pesados e gases tóxicos que resultam em poluição atmosférica.",
+          "image": null
+        },
+        {
+          "text": "o material particulado gerado se deposita na superfície das folhas das plantas impedindo os processos de respiração celular.",
+          "image": null
+        }
+      ],
+      "correct": 3,
+      "source": "https://sisq.elitecampinas.com.br/GabaritoVestibulares/VisualizarQuestao?id_questao_tipo=5061",
+      "explanation": "Os produtos da queima contém metais pesados como o chumbo (Pb), antimônio (Sb) e cromo (Cr) que bioacumulados podem causar problemas graves como o plumbismo, alterações cerebrais e câncer. Além disso, temos poluentes atmosféricos gasosos de caréter ácido como dióxido de nitrogênio (NO₂) e dióxido de enxofre (SO₂) que produzem a chuva ácida em contato com a água.",
+      "video": "https://www.youtube.com/embed/EQLwHyP5haM?si=J76CKya2KgTUUV8X"
+    }
+  ],
+
+  "2021": [
+    {
+      "id": 1,
+      "examLink": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D2_CD5.pdf",
+      "question": "(ENEM - 2021) Com o objetivo de proporcionar aroma e sabor a diversos alimentos, a indústria alimentícia se utiliza de flavorizantes. Em geral, essas substâncias são ésteres, como as apresentadas no quadro.",
+      "text2": "O aroma do flavorizante derivado do ácido etanoico e que apresenta cadeia carbônica saturada é de:",
+      "options": [
+        {
+          "text": "kiwi",
+          "image": null
+        },
+        {
+          "text": "banana",
+          "image": null
+        },
+        {
+          "text": "pêssego",
+          "image": null
+        },
+        {
+          "text": "rum",
+          "image": null
+        },
+        {
+          "text": "uva",
+          "image": null
+        }
+      ],
+      "correct": 1,
+      "source": "https://xequematenem.com.br/blog/questao-130-enem-2021/",
+      "explanation": "A cadeia saturada significa que não há presença de duplas ou triplas ligações entre os átomos de carbono. Além disso, o enunciado menciona que o flavorizante deve ser derivado do ácido etanoico, também conhecido como ácido acético. Para facilitar a nossa análise, é importante observar que o íon acetato (CH₃COO⁻) é derivado diretamente do ácido acético. Portanto, entre os aromas de banana e pêssego mencionados, apenas o acetato de isoamila (banana) possui uma cadeia saturada.",
+      "video": "https://www.youtube.com/embed/_GDakWnn5VY?si=oMoiKnCOcTkNTqHV",
+      "image": "https://d2q576s0wzfxtl.cloudfront.net/2021/11/29170046/17.png"
+    },
+    {
+      "id": 2,
+      "question": "(ENEM - 2021) As águas subterrâneas têm sido contaminadas pelo uso de pesticidas na agricultura. Entre as várias substâncias usualmente encontradas, algumas são apresentadas na figura. A distinção dessas substâncias pode ser feita por meio de uma análise química qualitativa, ou seja, determinando sua presença mediante a adição de um reagente específico. O hidróxido de sódio é capaz de identificar a presença de um desses pesticidas pela reação ácido-base de Brönsted-Lowry.",
+      "text2": "O teste positivo sera observado com o pesticida.",
+      "options": [
+        {
+          "text": "I",
+          "image": null
+        },
+        {
+          "text": "II",
+          "image": null
+        },
+        {
+          "text": "III",
+          "image": null
+        },
+        {
+          "text": "IV",
+          "image": null
+        },
+        {
+          "text": "V",
+          "image": null
+        }
+      ],
+      "correct": 2,
+      "source": "https://sisq.elitecampinas.com.br/GabaritoVestibulares/VisualizarQuestao?id_questao_tipo=6581",
+      "explanation": "O hidróxido de sódio (NaOH) libera o ion OH⁻ em água, que é uma base de Brönsted-Lowry por ser aceptor de próton (H⁺). Assim, para que ocorra reação ácido-base de Brönsted-Lowry com este composto, é necessário que haja grupos funcionais de caráter ácido nas estruturas submetidas à identificação. Dentre os compostos fornecidos, apenas III apresenta um grupo funcional de caráter ácido: a hidroxila ligada diretamente do anel aromático, que caracteriza a função fenol. Esses grupos apresentam caráter ácido pois, ao serem desprotonados, formam bases conjugadas estáveis já que a carga negativa se dispersa pela estrutura por ressonância, o que estabiliza o ânion formado. Assim, o composto III sofre reação ácido-base com hidróxido de sódio, formando um fenolato de sódio policlorado, conforme ilustrado abaixo, podendo ser assim identificado pelo método descrito.",
+      "video": "https://www.youtube.com/embed/2gp-5bB_f9w?si=KQ7Z82tNe5T1nfyl",
+      "image": "https://d2q576s0wzfxtl.cloudfront.net/2021/11/29184626/QUEST%C3%83O-1224.png"
+    }
+  ],
+
+  "2022": [
+    {
+      "id": 1,
+      "examLink": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD5.pdf",
+      "question": "(ENEM - 2022) De modo geral, a palavra “aromático” invoca associações agradáveis, como cheiro de café fresco ou de um pão doce de canela. Associações similares ocorriam no passado da história da química orgânica, quando os compostos ditos “aromáticos” apresentavam um odor agradável e foram isolados de óleos naturais. À medida que as estruturas desses compostos eram elucidadas, foi se descobrindo que vários deles continham uma unidade estrutural específica. Os compostos aromáticos que continham essa unidade estrutural tornaram-se parte de uma grande família, muito mais com base em suas estruturas eletrônicas do que nos seus cheiros, como as substâncias a seguir, encontradas em óleos vegetais.",
+      "text2": "A característica estrutural dessa família de compostos é a presença de:",
+      "options": [
+        {
+          "text": "ramificações",
+          "image": null
+        },
+        {
+          "text": "insaturações",
+          "image": null
+        },
+        {
+          "text": "anel benzênico",
+          "image": null
+        },
+        {
+          "text": "átomos de oxigênio",
+          "image": null
+        },
+        {
+          "text": "carbonos assimétricos",
+          "image": null
+        }
+      ],
+      "correct": 2,
+      "source": "https://sisq.elitecampinas.com.br/GabaritoVestibulares/VisualizarQuestao?id_questao_tipo=8322",
+      "explanation": "Analisando apenas a similaridade das estruturas apresentadas, podemos concluir que a parte em comum a todas elas é um ciclo de 6 carbonos com ligações duplas conjungadas ('intercaladas'), o qual é denominado <b>anel benzènico</b>. A aromaticidade consiste em um fenômeno aumento da estabilidade termodinâmica de um composto devido à presença de uma estrutura cíclica com elétrons deslocalizados, a qual pode ser identificada pela ressonância da ligações duplas conjugadas de um anel plano. A composto aromático mais comum é o benzeno, C₆H₆. A estrutura ciclica semelhante ao benzeno, isto é, um ciclo aromático com 6 átomos de carbono, é denominado <b>anel benzénico</b>, sendo este apenas um dos diversos tipos de ciclos aromáticos existentes.",
+      "video": "https://www.youtube.com/embed/CoqJXPd9RRc?si=urgYh4-FrU6BLDMe",
+      "image": "https://d2q576s0wzfxtl.cloudfront.net/2022/11/24170038/1-30.png"
+    },
+    {
+      "id": 2,
+      "question": "(ENEM - 2022) O ácido tartárico é o principal ácido do vinho e está diretamente relacionado com sua qualidade. Na avaliação de um vinho branco em produção, uma analista neutralizou uma alíquota de 25,0 mL do vinho com NaOH a 0,10 mol L−1, consumindo um volume igual a 8,0 mL dessa base. A reação para esse processo de titulação é representada pela equação química:",
+      "text2": "A concentração de ácido tartárico no vinho analisado é mais próxima de:",
+      "options": [
+        {
+          "text": "1,8 g L−¹",
+          "image": null
+        },
+        {
+          "text": "2,4 g L−¹",
+          "image": null
+        },
+        {
+          "text": "3,6 g L−¹",
+          "image": null
+        },
+        {
+          "text": "4,8 g L−¹",
+          "image": null
+        },
+        {
+          "text": "9,6 g L−¹",
+          "image": null
+        }
+      ],
+      "correct": 1,
+      "source": "https://sisq.elitecampinas.com.br/GabaritoVestibulares/VisualizarQuestaoLista?id_questao_lista=9498009&vestibular=enem&ano=2022&prova_vestibular_id=440039",
+      "explanation": "No processo de titulação, uma substância de concentração conhecida, neste caso o NaOH, é utilizada para reagir com uma substância de concentração desconhecida (ácido tartárico) contido certa quantidade uma amostra (o vinho). Considerando o consumo de 8 mL (0,008 L) de NaOH 0,10 mol L¹, podemos determinar a quantidade de matéria reagida. Considerando a reação química apresentada, a proporção molar entre os reagentes, ácido tartárico e NaOH, é de 1:2. Sendo a, a massa molar do ácido tartárico igual a 150 g/mol. Como a massa de ácido tartárico que foi neutralizada pela base estava contida em uma alíquota de 25 mL de vinho, podemos calcular a massa do ácido presente em 1 L (1000 mL) da amostra. Portanto, a concentração de ácido tartárico no vinho analisado é de 2,4 g L⁻¹.",
+      "video": "https://www.youtube.com/embed/zzjQxztAKB4?si=i-xrAfjNlc2hrvkW",
+      "image": "https://d2q576s0wzfxtl.cloudfront.net/2022/11/24164742/q-122.jpg"
+    }
+  ],
+
+  "2023": [
+    {
+      "id": 1,
+      "examLink": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D2_CD5.pdf",
+      "question": "(ENEM - 2023) O descarte de detergentes comuns nos esgotos domésticos ocasiona a formação de uma camada de espuma que impede a entrada de oxigênio na água. Os microrganismos que vivem nessas águas não são capazes de quebrar moléculas ramificadas, ocorrendo assim um desequilíbrio ambiental nos rios. A fórmula a seguir representa a estrutura química de um tensoativo presente na composição de um detergente não biodegradável.",
+      "text2": "Qual modificação química na estrutura desse tensoativo o tornaria um detergente biodegradável?",
+      "options": [
+        {
+          "text": "Retirar a parte polar da molécula",
+          "image": null
+        },
+        {
+          "text": "Eliminar as insaturações do anel aromático",
+          "image": null
+        },
+        {
+          "text": "Trocar o grupo aniônico por um grupo neutro",
+          "image": null
+        },
+        {
+          "text": "Alterar o grupo aniônico por um grupo catiônico",
+          "image": null
+        },
+        {
+          "text": "Modificar a cadeia carbônica para cadeia normal",
+          "image": null
+        }
+      ],
+      "correct": 4,
+      "source": "https://sisq.elitecampinas.com.br/GabaritoVestibulares/VisualizarQuestao?id_questao_tipo=10478",
+      "explanation": "Conforme descrito no enunciado: 'os microorganismos não são capazes de quebrar moléculas ramificadas'. Assim, a modificação necessária na estrutura desse tensoativo para torná-lo biodegradável seria modificar a cadeia de ramificada para normal (ou seja, sem ramificações).",
+      "video": "https://www.youtube.com/embed/R8ljohS9k5Q?si=l9lNMXyn7N8xwukV",
+      "image": "https://d2q576s0wzfxtl.cloudfront.net/2023/12/04145806/imagem-1.png"
+    },
+    {
+      "id": 2,
+      "question": "(ENEM - 2023) O consumo exagerado de refrigerantes é preocupante, pois contribui para o aumento de casos de obesidade e diabetes. Considere dois refrigerantes enlatados, um comum e um diet, e que ambos possuam a mesma quantidade de aditivos, exceto pela presença de açúcar. O refrigerante comum contém basicamente água carbonatada e grande quantidade de açúcar; já o refrigerante diet tem água carbonatada e adoçantes, cujas massas são muito pequenas.",
+      "text2": "Entre as duas versões apresentadas, o refrigerante comum possui.",
+      "options": [
+        {
+          "text": "maior densidade",
+          "image": null
+        },
+        {
+          "text": "menor viscosidade",
+          "image": null
+        },
+        {
+          "text": "maior volume de gás dissolvido",
+          "image": null
+        },
+        {
+          "text": "menor massa de solutos dissolvidos",
+          "image": null
+        },
+        {
+          "text": "maior temperatura de congelamento",
+          "image": null
+        }
+      ],
+      "correct": 0,
+      "source": "https://sisq.elitecampinas.com.br/GabaritoVestibulares/VisualizarQuestao?id_questao_tipo=10472",
+      "explanation": "Em ambos os refrigerantes, comum e diet, o volume de solução é o mesmo, ou seja, é o volume da lata. Sabendo que a única diferença entre eles é a presença de açúcar ou de adoçante e que a massa de adoçante é desprezível por ser muito pequena, podemos inferir que a massa total do refrigerante comum será maior:",
+      "video": "https://www.youtube.com/embed/imsp_StTYPk?si=yDCzIQgv856yuzzZ"
+    }
+  ],
+
+  "2024": [
+    {
+      "id": 1,
+      "examLink": "https://download.inep.gov.br/enem/provas_e_gabaritos/2024_PV_impresso_D2_CD5.pdf",
+      "question": "(ENEM - 2024) Um dos agentes que mais contribui para a poluição do ar é o automóvel a combustão interna. Em áreas urbanas, isso é demonstrado dramaticamente pela fumaça fotoquímica, resultante da interação entre óxidos de nitrogênio, hidrocarbonetos e luz solar, para formar produtos de oxidação, que causam irritação aos olhos, ao aparelho respiratório e danos às plantas. As condições de operação de motores a combustão, como a razão da mistura ar/combustível no cilindro, influenciam na composição dos gases lançados pelo escapamento na atmosfera. O gráfico ilustra a variação nas composições dos principais gases, dióxido de carbono (CO2), hidrocarbonetos (HC), monóxido de carbono (CO), monóxido de nitrogênio (NO) e oxigênio molecular (O2), emitidos por um motor a gasolina, em diferentes razões ar/combustível, em massa.",
+      "text2": "Na condição de razão ar/combustível igual a 18, haverá uma emissão",
+      "options": [
+        {
+          "text": "baixa de O2 e alta de NO.",
+          "image": null
+        },
+        {
+          "text": "baixa de NO e alta de HC.",
+          "image": null
+        },
+        {
+          "text": "baixa de CO e alta de CO2.",
+          "image": null
+        },
+        {
+          "text": "baixa de HC e alta de CO.",
+          "image": null
+        },
+        {
+          "text": "baixa de CO2 e alta de HC. ",
+          "image": null
+        }
+      ],
+      "correct": 2,
+      "source": "https://descomplica.com.br/gabarito-enem/questoes/2024/segundo-dia/um-dos-agentes-que-mais-contribui-para-poluicao-ar-e-o-automovel-combustao-interna-em-areas/",
+      "explanation": "A questão pede para analisar o gráfico e determinar quais serão as emissões para uma razão ar/combustível igual a 18.<br>Para uma razão ar/combustível de 18, observamos no gráfico que:<br>A emissão de monóxido de carbono (CO) é baixa.<br>A emissão de gás carbônico (CO2) é alta.",
+      "video": "https://www.youtube.com/embed/qIhwu8ARiqY?si=pZ2CUiulKmL49oN7",
+      "image": "https://d2q576s0wzfxtl.cloudfront.net/2024/11/29221550/Captura-de-tela-2024-11-29-191533.png"
+    },
+    {
+      "id": 2,
+      "question": "(ENEM - 2024) O soro caseiro serve para combater a desidratação por meio da reposição da água e sais minerais perdidos, por exemplo, por diarreia. Uma receita simples para a sua preparação consiste em utilizar duas colheres grandes (de sopa) de açúcar e duas colheres pequenas (de café) de sal de cozinha, dissolvidos em 2 L de água fervida, obtendo-se uma solução com concentração de íon sódio de 1,4 mg/mL. <p>Considere as massas molares: NaCl = 58,5 g/mol;Na = 23 g/mol.",
+      "text2": "Qual é o valor mais próximo da massa, em grama, de cloreto de sódio presente em uma única colher pequena?",
+      "options": [
+        {
+          "text": "0,7 g",
+          "image": null
+        },
+        {
+          "text": "1,8 g",
+          "image": null
+        },
+        {
+          "text": "2,8 g",
+          "image": null
+        },
+        {
+          "text": "3,6 g",
+          "image": null
+        },
+        {
+          "text": "7,0 g",
+          "image": null
+        }
+      ],
+      "correct": 3,
+      "source": "https://xequematenem.com.br/blog/questao-97-enem-2024/",
+      "explanation": "Duas colheres pequenas de sal de cozinha dissolvidas em 2 litros de água resultam em uma solução com concentração de íons sódio de 1,4 mg por mililitro, equivalente a 1,4 g por litro de solução. Como foram adicionadas 2 colheres pequenas em 2 litros de água, isso corresponde a 1 colher de sal por litro de solução.<p> Em 1 mol de NaCl temos 1 mol de íons sódio, portanto o valor mais próximo da massa, em grama, de cloreto de sódio presente em uma única colher pequena é dado por:<p>1 mol de NaCl              1 mol de Na+<p> 58,5 g——————- 23 g de Na+<p>x ————————– 1,4 g de Na+<p>x = 3,6 g de NaCl",
+      "video": "https://www.youtube.com/embed/-isbD-ofIac?si=KWmbw5EJf8dtFHXZ"
+    }
+  ]
+}

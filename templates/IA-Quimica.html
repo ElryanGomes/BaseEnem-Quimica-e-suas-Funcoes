@@ -1,0 +1,309 @@
+{% extends "base.html" %}
+{% block title %} IA e quimica Computacional {% endblock %}
+
+{% block css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/fe.css')}}" />
+{% endblock %}
+
+{% block conteudo %}
+<header>
+    <h1>Inteligência Artificial e Química Computacional</h1>
+    <p><b>Revolucionando a Pesquisa Científica e a Indústria Química</b></p>
+</header>
+
+<button id="menu-btn">☰ MENU</button>
+
+<nav id="side-nav">
+    <a href="#inicio">🏠 Início</a>
+    <a href="#simulacoes">🔬 Simulações e Modelagem</a>
+    <a href="#analise-dados">📊 IA na Análise de Dados</a>
+    <a href="#medicamentos">💊 Inovação em Medicamentos</a>
+    <a href="#desafios">🚀 Desafios do Setor</a>
+    <a href="#exemplos">📌 Casos e Aplicações</a>
+    <a href="#duvidas">🤖 Tire suas duvidas com nossa IA</a>
+</nav>
+
+<div class="content">
+    <!-- Seção Início -->
+    <section id="inicio">
+        <h2 class="section-title">O que é Inteligência Artificial e Química Computacional?</h2>
+        <div id="img"> <img src="https://iaexpert.academy/wp-content/uploads/2024/05/chemicals.jpg"
+                alt="Inteligência Artificial" class="section-img"> </div>
+        <p class="section-content">A <span class="highlight">Inteligência Artificial (IA)</span> e a <span
+                class="highlight">Química Computacional</span> são áreas interdisciplinares que estão revolucionando a
+            ciência e a tecnologia, especialmente no campo da química e da ciência dos materiais. Elas permitem realizar
+            previsões mais rápidas e precisas, descobrir novos
+            materiais e medicamentos, e otimizar processos industriais de forma eficiente. Essas tecnologias têm
+            aplicações que abrangem desde o design de novos compostos químicos até o avanço em tratamentos
+            personalizados para doenças. </p>
+        <p class="section-content"> A Química Computacional usa modelos matemáticos e simulações computacionais para
+            estudar e prever o comportamento de moléculas e materiais. Quando combinada com a IA, a computação
+            avança ainda mais, oferecendo novas abordagens para a pesquisa e inovação. Por exemplo, a IA pode
+            auxiliar na identificação de novas propriedades de materiais que antes seriam impossíveis de descobrir
+            através de métodos tradicionais. </p>
+    </section>
+
+    <section id="simulacoes">
+        <h2 class="section-title">Simulações de Moléculas e Materiais</h2>
+        <div id="img"> <img src="https://phet.colorado.edu/sims/build-a-molecule/build-a-molecule-600.png"
+                alt="Simulações de Moléculas" class="section-img"> </div>
+        <p class="section-content"> A modelagem computacional de moléculas e materiais é uma ferramenta essencial na
+            química moderna. Com a ajuda da <span class="highlight">IA</span>, é possível realizar simulações de
+            novos compostos e prever suas propriedades, como reatividade, estabilidade e capacidade de interação com
+            outras moléculas. Essas simulações ajudam a economizar tempo e recursos que seriam gastos em
+            experimentos laboratoriais. </p>
+        <h3>Principais Métodos de Química Computacional:</h3>
+        <ul class="section-content">
+            <li><span class="highlight">Mecânica Quântica:</span> Base para descrever as interações atômicas e
+                moleculares. Métodos como <span class="highlight">DFT (Teoria do Funcional da Densidade)</span> são
+                usados para prever as propriedades eletrônicas e estruturais. Esses métodos são fundamentais para o
+                entendimento de reações químicas complexas.</li>
+            <li><span class="highlight">Dinâmica Molecular:</span> Simula o movimento dos átomos em uma molécula ao
+                longo do tempo, ajudando a entender o comportamento dinâmico. Essa abordagem é crucial para estudar
+                processos como a difusão de moléculas em diferentes ambientes.</li>
+            <li><span class="highlight">Simulação de Monte Carlo:</span> Método estatístico utilizado para prever o
+                comportamento de materiais sob diferentes condições. Esse método é amplamente utilizado em estudos
+                de termodinâmica e propriedades estatísticas de sistemas complexos.</li>
+        </ul>
+        <p class="section-content"> <span class="highlight">Exemplo prático:</span> A IA foi usada para prever a
+            estrutura de novos compostos para baterias de lítio, acelerando o desenvolvimento de baterias com maior
+            capacidade e durabilidade. Essas baterias têm potencial para transformar a indústria de eletrônicos
+            portáteis e veículos elétricos. </p>
+    </section>
+
+    <section id="analise-dados">
+        <h2 class="section-title">Análise de Dados com IA</h2>
+        <div id="img"> <img src="https://img.odcdn.com.br/wp-content/uploads/2023/08/Remedio-IA-1.jpg"
+                alt="Análise de Dados com IA" class="section-img"> </div>
+        <p class="section-content"> A química experimental gera grandes volumes de dados, desde espectros de RMN até
+            resultados de simulações complexas. A <span class="highlight">IA</span> permite analisar esses dados de
+            forma eficiente, identificando padrões que podem passar despercebidos por métodos tradicionais. A
+            análise de dados com IA não só aumenta a precisão dos resultados, mas também acelera o tempo necessário
+            para obter conclusões significativas. </p>
+        <h3>Exemplos de Aplicações:</h3>
+        <ul class="section-content">
+            <li><span class="highlight">Design de Materiais Assistido por Computador (CAMD):</span> IA pode analisar
+                grandes bases de dados de materiais e sugerir novos compostos com propriedades desejáveis,
+                otimizando o processo de descoberta de materiais.</li>
+            <li><span class="highlight">Análise de Dados Espectroscópicos:</span> Algoritmos de IA são usados para
+                interpretar dados de espectrometria e RMN de forma mais rápida e precisa, facilitando a
+                identificação de componentes químicos complexos.</li>
+        </ul>
+        <div class="example-case">
+            <h3>Exemplo Real:</h3>
+            <p>Em 2021, a IA ajudou a identificar novos materiais para células solares de perovskita, com maior
+                eficiência na conversão de energia. Esses materiais têm o potencial de revolucionar a indústria de
+                energia renovável, proporcionando fontes de energia mais sustentáveis e eficientes.</p>
+        </div>
+    </section>
+
+    <section id="medicamentos">
+        <h2 class="section-title">IA e Machine Learning no Desenvolvimento de Medicamentos</h2>
+        <div id="img"> <img
+                src="https://7793103.fs1.hubspotusercontent-na1.net/hubfs/7793103/Imported_Blog_Media/machine-redimensionado.jpg"
+                alt="Desenvolvimento de Medicamentos" class="section-img"> </div>
+        <p class="section-content"> A descoberta de medicamentos é uma das áreas mais promissoras para a aplicação
+            de <span class="highlight">IA</span>. A combinação de IA e Química Computacional pode reduzir
+            significativamente o tempo e o custo do desenvolvimento de novos fármacos, além de melhorar a precisão
+            dos resultados. Esses avanços são possíveis graças à capacidade da IA de processar grandes volumes de
+            dados e identificar padrões que podem levar à descoberta de novos medicamentos eficazes. </p>
+        <h3>Como a IA Acelera o Desenvolvimento de Medicamentos:</h3>
+        <ul class="section-content">
+            <li><span class="highlight">Triagem Virtual:</span> A IA pode avaliar rapidamente grandes bibliotecas de
+                compostos para identificar aqueles que têm maior potencial para interagir com alvos terapêuticos.
+                Isso agiliza significativamente a fase inicial de triagem de fármacos.</li>
+            <li><span class="highlight">Desenho de Fármacos de Novo:</span> Algoritmos de IA podem ser usados para
+                projetar novos compostos químicos a partir do zero, com propriedades otimizadas para eficácia e
+                segurança. Esse método permite a criação de medicamentos mais precisos e personalizados.</li>
+            <li><span class="highlight">Previsão de Toxidade:</span> IA pode ajudar a prever a toxicidade de novos
+                compostos antes mesmo de serem sintetizados, aumentando a segurança no desenvolvimento de
+                medicamentos. Isso é fundamental para evitar efeitos colaterais indesejados em futuros tratamentos.
+            </li>
+        </ul>
+        <p class="section-content"> <span class="highlight">Exemplo prático:</span> A IA foi usada para acelerar a
+            descoberta de novos antibióticos, encontrando compostos que eram previamente desconhecidos e que têm
+            potencial para combater bactérias resistentes a medicamentos. Esses novos antibióticos são essenciais
+            para enfrentar a crescente ameaça da resistência antimicrobiana. </p>
+    </section>
+
+    <!-- Seção Desafios e Oportunidades -->
+    <section id="desafios">
+        <h2 class="section-title">Desafios e Oportunidades</h2>
+        <div id="img"> <img
+                src="https://saudedigitalnews.com.br/wp-content/uploads/2023/03/IA-Medicina_shutterstock-scaled-e1677757276371.jpg"
+                alt="Desafios e Oportunidades" class="section-img"> </div>
+        <p class="section-content"> Embora a combinação de IA e Química Computacional tenha um enorme potencial,
+            também existem desafios significativos. A precisão dos modelos de IA depende da qualidade dos dados de
+            treinamento, e a interpretação dos resultados pode ser complexa. No entanto, essas barreiras representam
+            também oportunidades para avanços tecnológicos e metodológicos. Superar esses desafios é crucial para
+            maximizar os benefícios dessas tecnologias. </p>
+        <h3>Principais Desafios:</h3>
+        <ul class="section-content">
+            <li><span class="highlight">Qualidade dos Dados:</span> Dados imprecisos ou incompletos podem levar a
+                previsões incorretas. Portanto, é fundamental garantir que os dados utilizados para treinar modelos
+                de IA sejam de alta qualidade e representativos. Esse aspecto é particularmente desafiador em áreas
+                onde os dados são escassos ou difíceis de obter.</li>
+            <li><span class="highlight">Interpretação dos Resultados:</span> Os modelos de IA muitas vezes são
+                vistos como "caixas pretas", dificultando a compreensão de como chegam a determinadas conclusões.
+                Desenvolver métodos para interpretar esses modelos é um passo importante para aumentar a confiança
+                nas previsões da IA. Isso inclui técnicas como interpretabilidade e explicabilidade de modelos de
+                IA.</li>
+            <li><span class="highlight">Capacidade Computacional:</span> Modelos de IA avançados exigem grande poder
+                de processamento, o que pode ser um obstáculo para laboratórios menores. A evolução contínua da
+                infraestrutura computacional e o acesso a recursos de computação em nuvem podem ajudar a mitigar
+                esse desafio.</li>
+        </ul>
+    </section>
+
+    <section id="exemplos">
+        <h2 class="section-title">Exemplos Práticos de IA na Química Computacional</h2>
+        <div id="img"> <img
+                src="https://img.freepik.com/fotos-premium/futuro-robo-de-inteligencia-artificial-e-cyborg_31965-6238.jpg"
+                alt="Exemplos Práticos" class="section-img"> </div>
+        <p class="section-content"> Diversos exemplos de sucesso mostram como a IA tem sido aplicada de forma
+            prática em áreas como a previsão de propriedades de materiais, design de fármacos e otimização de
+            processos químicos. Esses exemplos ilustram como a integração da IA com a Química Computacional está
+            revolucionando o campo. </p>
+        <h3>Exemplos Notáveis:</h3>
+        <ul class="section-content">
+            <li><span class="highlight">Novos Materiais para Eletrônica:</span> IA ajudou a identificar materiais
+                com propriedades ótimas para dispositivos eletrônicos flexíveis, que são essenciais para a próxima
+                geração de dispositivos portáteis e wearables.</li>
+            <li><span class="highlight">Desenvolvimento de Fármacos:</span> Algoritmos de IA aceleraram a
+                identificação de novos compostos para tratamentos contra o câncer, proporcionando novas opções
+                terapêuticas que podem melhorar a qualidade de vida dos pacientes e aumentar as taxas de
+                sobrevivência.</li>
+        </ul>
+    </section>
+
+    <!-- Seção de dúvidas interativa -->
+    <section id="duvidas">
+        <h2 class="section-title">Tire suas Dúvidas</h2>
+        <p class="section-content">
+            Selecione um tópico ou digite sua dúvida abaixo. Nossa IA está pronta para ajudar!
+        </p>
+
+        <!-- Dropdown para seleção de tópicos -->
+        <div class="duvidas-container">
+            <label for="topicos" class="duvidas-label">Tópicos:</label>
+            <select id="topicos" class="duvidas-dropdown">
+                <option value="">-- Selecione um tópico --</option>
+                <option value="O que é Inteligência Artificial e Química Computacional?">O que é Inteligência
+                    Artificial e Química Computacional?</option>
+                <option value="Simulações de Moléculas e Materiais">Simulações de Moléculas e Materiais</option>
+                <option value="Desafios e Oportunidades">Desafios e Oportunidades</option>
+                <option value="Exemplos Práticos de IA na Química Computacional">Exemplos Práticos de IA na Química
+                    Computacional</option>
+            </select>
+            <button id="enviarTopico" class="duvidas-button" onclick="enviarTopico()">Enviar Tópico</button>
+        </div>
+        <div id="respostaTopico" class="duvidas-resposta">
+            <!-- Resposta da IA sobre tópicos será exibida aqui -->
+        </div>
+
+        <!-- Caixa de texto para dúvidas específicas -->
+        <div class="duvidas-container">
+            <label for="duvidaEspecifica" class="duvidas-label">Digite sua dúvida:</label><br>
+            <div class="duvidas-textarea-container">
+                <textarea id="duvidaEspecifica" placeholder="Escreva sua dúvida aqui"
+                    class="duvidas-textarea"></textarea>
+                <button id="enviarDuvida" class="duvidas-button" onclick="enviarDuvida()">Enviar Dúvida</button>
+            </div>
+        </div>
+
+        <!-- Áreas de resposta da IA -->
+        <div id="respostaDuvida" class="duvidas-resposta">
+            <!-- Resposta da IA sobre dúvidas específicas será exibida aqui -->
+        </div>
+    </section>
+
+</div>
+
+<script>
+    // Seleciona o botão e o nav
+    const menuBtn = document.getElementById("menu-btn");
+    const sideNav = document.getElementById("side-nav");
+
+    // Adiciona um evento de clique ao botão
+    menuBtn.addEventListener("click", () => {
+        if (sideNav.style.transform === "translateX(0px)") {
+            sideNav.style.transform = "translateX(-250px)";
+        } else {
+            sideNav.style.transform = "translateX(0px)";
+        }
+    });
+    async function enviarTopico() {
+        const topicoSelecionado = document.getElementById("topicos").value;
+        const respostaTopicoArea = document.getElementById("respostaTopico");
+
+        if (!topicoSelecionado) {
+            respostaTopicoArea.innerText = "Por favor, selecione um tópico.";
+            return;
+        }
+
+        // Exibir mensagem enquanto processa
+        respostaTopicoArea.innerHTML = "Carregando resposta...";
+
+        const dados = { topico: topicoSelecionado, duvida: "" };
+
+        try {
+            const response = await fetch('/explicar', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(dados)
+            });
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+
+            const data = await response.json();
+
+            if (data.resposta) {
+                respostaTopicoArea.innerHTML = `Resposta: ${data.resposta}`;
+            } else {
+                respostaTopicoArea.innerHTML = "Desculpe, não conseguimos entender sua pergunta.";
+            }
+        } catch (error) {
+            respostaTopicoArea.innerHTML = `Erro ao se conectar com o servidor: ${error.message}`;
+        }
+    }
+
+    async function enviarDuvida() {
+        const duvidaEspecifica = document.getElementById("duvidaEspecifica").value;
+        const respostaDuvidaArea = document.getElementById("respostaDuvida");
+
+        if (!duvidaEspecifica) {
+            respostaDuvidaArea.innerText = "Por favor, escreva uma dúvida.";
+            return;
+        }
+
+        // Exibir mensagem enquanto processa
+        respostaDuvidaArea.innerHTML = "Carregando resposta...";
+
+        const dados = { topico: "", duvida: duvidaEspecifica };
+
+        try {
+            const response = await fetch('/explicar', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(dados)
+            });
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+
+            const data = await response.json();
+
+            if (data.resposta) {
+                respostaDuvidaArea.innerHTML = `Resposta: ${data.resposta}`;
+            } else {
+                respostaDuvidaArea.innerHTML = "Desculpe, não conseguimos entender sua pergunta.";
+            }
+        } catch (error) {
+            respostaDuvidaArea.innerHTML = `Erro ao se conectar com o servidor: ${error.message}`;
+        }
+    }
+</script>
+{% endblock %}

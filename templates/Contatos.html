@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+{% block title %} Contatos {% endblock %}
+
+{% block css%}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/contatos.css')}}" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+  integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="icon" href="static/img/Base/Contatos.ico" type="image/x-icon" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Maitree:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+  rel="stylesheet" />
+{% endblock %} 
+
+{% block conteudo %} 
+{% for item in grupio %}
+<div class="grupo">
+  <h1 id="titulo">{{ item.fez }}</h1>
+  {% if item.fez == "IA Química" %}
+  <div class="grid2">
+    {% else %}
+    <div class="grid">
+      {% endif %}
+
+      <!-- ----------------------CONTATO1--------------------------------- -->
+      <div class="card-pessoal">
+        <img class="img-fundo1" src="{{ item.FtFundo1 }}" alt="" />
+
+        <div class="texto-card">
+          <h4>Técnico em infórmatica</h4>
+          <h1> {{ item.Nome }} <br> {{ item.NomeS }} </h1>
+          <h1></h1>
+        </div>
+
+        <div class="div-img-perfil">
+          <img class="img-perfil" src="{{ url_for('static', filename=item.FtPerfil1 ) }}" alt="Imagem de perfil" />
+        </div>
+
+        <div class="icone">
+          {% if item.git != "sem" %}
+          <a href="{{ item.git }}"><i class="fa-brands fa-github"></i></a>
+          {% endif %}
+          {% if item.Insta1 != "sem" %}
+          <a href="{{ item.Insta1 }}"><i class="fa-brands fa-instagram"></i></a>
+          {% endif %}
+          {% if item.link != "sem" %}
+          <a href="{{ item.link }}"><i class="fa-brands fa-linkedin"></i></a>
+          {% endif %}
+        </div>
+        <div class="email">{{ item.email1 }}</div>
+      </div>
+
+      <!-- ------------------------CONTATO2------------------------------- -->
+      <div class="card-pessoal">
+        <img class="img-fundo1" src="{{ item.FtFundo2 }}" alt="" />
+
+        <div class="texto-card">
+          <h4>Técnico em infórmatica</h4>
+          <h1>{{ item.Nome2 }} <br> {{ item.Nome2S }} </h1>
+        </div>
+
+        <div class="div-img-perfil">
+          <img class="img-perfil" src="{{ url_for('static', filename=item.FtPerfil2 ) }}" alt="Imagem de perfil" />
+        </div>
+
+        <div class="icone">
+          {% if item.git2 != "sem" %}
+          <a href="{{ item.git2 }}"><i class="fa-brands fa-github"></i></a>
+          {% endif %}
+          {% if item.Insta2 != "sem" %}
+          <a href="{{ item.Insta2 }}"><i class="fa-brands fa-instagram"></i></a>
+          {% endif %}
+          {% if item.link2 != "sem" %}
+          <a href="{{ item.link2 }}"><i class="fa-brands fa-linkedin"></i></a>
+          {% endif %}
+        </div>
+        <div class="email">{{ item.email2 }}</div>
+      </div>
+
+      <!-- ----------------------CONTATO3------------------------------- -->
+      {% if item.Nome3 != "seila" %}
+
+      <div class="card-pessoal">
+        <img class="img-fundo1" src="{{ item.FtFundo3 }}" alt="" />
+
+        <div class="texto-card">
+          <h4>Técnico em infórmatica</h4>
+          <h1>{{ item.Nome3 }} <br> {{ item.Nome3S }}</h1>
+        </div>
+
+        <div class="div-img-perfil">
+          <img class="img-perfil" src="{{ url_for('static', filename=item.FtPerfil3 ) }}" alt="Imagem de perfil" />
+        </div>
+
+        <div class="icone">
+          {% if item.git3 != "sem" %}
+          <a href="{{ item.git3 }}"><i class="fa-brands fa-github"></i></a>
+          {% endif %}
+          {% if item.Insta3 != "sem" %}
+          <a href="{{ item.Insta3 }}"><i class="fa-brands fa-instagram"></i></a>
+          {% endif %}
+          {% if item.link3 != "sem" %}
+          <a href="{{ item.link3 }}"><i class="fa-brands fa-linkedin"></i></a>
+          {% endif %}
+        </div>
+
+        <div class="email">{{ item.email3 }}</div>
+      </div>
+      {% endif %}
+     
+    </div>
+  </div>
+  {% endfor %} 
+{% endblock %}

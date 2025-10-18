@@ -1,0 +1,99 @@
+{% extends "base.html" %} 
+{% block title %} Questões ENEM {% endblock %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/Enem.css') }}">
+{% endblock %}
+
+{% block conteudo %}
+<!-- Cabeçalho -->
+<div id="all">
+    <header>
+        <h1>Questões de Química ENEM</h1>
+        <p>Selecione o ano e o número da questão para praticar!</p>
+    </header>
+
+    <!-- Seleção de Ano e Questão -->
+    <section class="year-question-selector">
+        <label for="year">Escolha o Ano:</label>
+        <select id="year" onchange="loadQuestionList()">
+            <option value="">-- Selecione --</option>
+            <option value="2009">2009</option>
+            <option value="2010">2010</option>
+            <option value="2011">2011</option>
+            <option value="2012">2012</option>
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+        </select>
+        <a id="exam-button" href="#" target="_blank" style="display: none; margin-top: 10px;">
+            <button>Abrir Prova Completa</button>
+        </a>
+        <label for="question">Escolha a Questão:</label>
+        <select id="question">
+            <option value="">-- Selecione o Ano Primeiro --</option>
+        </select>
+        <button onclick="loadQuestion()">Carregar Questão</button>
+    </section>
+
+    <!-- Container de Questões -->
+    <section id="question-container" class="hidden">
+        <h2 id="question-title">Questão</h2>
+
+        <!-- Texto Principal -->
+        <p id="text1"></p>
+
+        <!-- Imagem Opcional -->
+        <img id="question-image" src="" alt="Imagem da Questão"
+            style="display: none; max-width: 100%; height: auto; margin-bottom: 15px;">
+
+        <!-- Texto Secundário Opcional -->
+        <p id="text2" style="display: none;"></p>
+
+        <!-- Alternativas -->
+        <div id="options"></div>
+        <div id="feedback"></div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+            <button id="show-ai-response" style="display: none; margin-top: 15px;" onclick="fetchAIResponse()"> 
+                Ver Resposta da IA 
+            </button>
+
+            <div class="tooltip" id="tooltip-container" style="display: none;">
+                <img src="static/img/Enem-Questões/aviso.png" alt="Tooltip" style="width: 20px; height: 20px;">
+                <span class="tooltiptext">
+                    As explicações fornecidas pela IA são geradas automaticamente e podem conter
+                    imprecisões ou interpretações incorretas. Recomendamos verificar as informações e não depender
+                    exclusivamente das explicações da IA.
+                </span>
+            </div>
+        </div>
+
+        <div id="ai-response" style="margin-top: 20px; font-style: italic; color: #555;"></div>
+
+        <!-- Feedback e Explicação -->
+        <div id="explanation" class="hidden">
+            <h3>Explicação:</h3>
+            <p id="explanation-text"></p>
+            <p id="source-text" style="display: none; font-style: italic; color: #555;"></p>
+        </div>
+
+        <!-- Videoaula -->
+        <div id="video-container" style="display: none;">
+            <h3>Vídeo aula</h3>
+            <iframe id="video" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <script src="{{ url_for('static', filename='js/Enem.js') }}"></script>
+</div>
+
+{% endblock %}

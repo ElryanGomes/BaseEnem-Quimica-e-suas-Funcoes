@@ -1,0 +1,336 @@
+{% extends "base.html" %}
+{% block title %} Energias Sustentáveis {% endblock %}
+
+{% block css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/energias.css') }}">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+{% endblock %}
+
+{% block conteudo %}
+
+<header id="meu-header" class="text-white text-center py-5" style="background-color: #103778;">
+  <h1 id="titulo-header" class="efeito-luz-amarela">ENERGIAS RENOVÁVEIS</h1>
+  <h3 id="subtitulo-header" class="efeito-luz-amarela">Um futuro sustentável</h3>
+  <div class="lampada" id="lampada">
+    <img src="https://img.icons8.com/ios/50/ffffff/light-on.png" alt="Lâmpada" id="icone-lampada" style="cursor: pointer;     ">
+  </div>
+  <canvas id="fireworkCanvas"></canvas>
+</header>
+
+<main class="container mt-5">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary mb-4" id="nav">
+    <div class="container-fluid justify-content-center">
+      <ul class="navbar-nav d-flex justify-content-around w-100">
+        <li class="nav-item">
+          <a class="nav-link text-white fw-bold" href="#introducao">Introdução</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white fw-bold" href="#fontes">Fontes de Energia Renováveis</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white fw-bold" href="#transicao">Transição Energética Global</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white fw-bold" href="#eficiencia">Eficiência Energética</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="mb-5" id="introducao">
+    <div class="row shadow-lg p-4 mb-5 bg-body rounded">
+      <div class="col-md-6 text-center">
+        <img src="https://blogs.unib.org/pt/wp-content/uploads/sites/2/2023/04/GettyImages-1282691087-480-1.jpg"
+          class="img-fluid rounded efeito-luz-amarela" alt="Energia Sustentável">
+      </div>
+      <div class="col-md-6">
+        <h2 class="text-primary">INTRODUÇÃO</h2>
+        <div id="conteudo-completo" class="collapse show">
+          <p class="fs-5" id="texto-introducao">
+            A transição para um sistema energético mais limpo e sustentável é um dos maiores desafios enfrentados
+            globalmente no século XXI. Com as preocupações crescentes em relação à emissão de gases do efeito estufa,
+            mudança climática, e esgotamento de recursos naturais, a adoção de energias renováveis tem se tornado
+            fundamental. As energias renováveis, como a solar, eólica, biomassa e hidráulica, apresentam vantagens
+            significativas em comparação às fontes de energia tradicionais, como o carvão e o petróleo, tanto no que se
+            refere à redução das emissões quanto ao fornecimento energético sustentável.
+          </p>
+          <div class="collapse" id="resto-introducao">
+            <p class="fs-5">
+              Estudos recentes mostram que as energias renováveis ajudam a reduzir a dependência de combustíveis
+              fósseis, melhoram o ar, geram empregos e impulsionam o crescimento econômico. Em 2021 e 2022, os
+              investimentos globais em renováveis aumentaram 12%, atingindo 366 bilhões de dólares. Especialistas como
+              Ürge-Vorsatz et al. destacam que o uso de renováveis e a eficiência energética são cruciais para cumprir
+              metas de redução de emissões. A energia solar cresce a uma média global de 21% ao ano, e o custo da
+              geração eólica caiu 40% em uma década. O setor das renováveis emprega mais de 12 milhões de pessoas
+              globalmente e tende a crescer, tornando a transição para renováveis essencial para um futuro sustentável e
+              econômico.
+            </p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item efeito-luz">Edificações: Melhorias em isolamento térmico...</li>
+              <li class="list-group-item efeito-luz">Transporte: A eficiência dos veículos elétricos...</li>
+              <li class="list-group-item efeito-luz">Indústria: Tecnologias de automação...</li>
+            </ul>
+          </div>
+        </div>
+        <a href="#" class="btn btn-primary mt-2" data-bs-toggle="collapse" data-bs-target="#resto-introducao"
+          role="button" aria-expanded="false" aria-controls="resto-introducao" id="btn-introducao">
+          Ler mais
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="mb-5" id="fontes">
+    <div class="row shadow-lg p-4 mb-5 bg-body rounded">
+      <div class="col-md-6 text-center">
+        <img src="https://th.bing.com/th/id/OIP.CI9_kzzTsESCWoQULkx_BgHaD4?rs=1&pid=ImgDetMain"
+          class="img-fluid rounded efeito-luz-verde" alt="Fontes de energia renováveis">
+      </div>
+      <div class="col-md-6">
+        <h2 class="text-primary">Fontes de Energia Renováveis</h2>
+        <div id="conteudo-completo" class="collapse show">
+          <p class="fs-5" id="texto-fontes">
+            As fontes de energia renováveis desempenham um papel central na transformação energética global. Essas
+            fontes, como solar, eólica, biomassa e hidráulica, são consideradas alternativas mais limpas e sustentáveis
+            em comparação aos combustíveis fósseis. Elas se destacam pela capacidade de se regenerarem em um intervalo
+            de tempo relativamente curto e por oferecerem benefícios ambientais, econômicos e sociais.
+          </p>
+          <div class="collapse" id="resto-fontes">
+            <p class="fs-5">
+              Energia Solar: Cresce 21% ao ano globalmente. Desde 2010, o custo da energia solar fotovoltaica caiu 85%
+              (IRENA).
+              <br> <br>
+              Energia Eólica: Responsável por 7% da eletricidade global em 2022, com previsão de aumento para 12% até
+              2030. Custos de instalação caíram 40% na última década (IEA).
+              <br> <br>
+              Energia Hidrelétrica: Maior fonte renovável, com mais de 1.300 GW instalados em 2023. Gera menos emissões
+              que fósseis, dependendo do tipo de barragem (World Energy Council).
+              <br> <br>
+              Impacto Econômico: Energias renováveis empregam 12 milhões de pessoas, com destaque para os setores solar
+              e eólico. Reduzem a dependência de combustíveis fósseis.
+              <br> <br>
+              Benefícios Ambientais: Podem cortar emissões globais em até 70% até 2050 (IPCC) e melhorar a qualidade do
+              ar e a saúde pública.
+            </p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item efeito-luz-verde">Edificações: Melhorias em isolamento térmico...</li>
+              <li class="list-group-item efeito-luz-verde">Transporte: A eficiência dos veículos elétricos...</li>
+              <li class="list-group-item efeito-luz-verde">Indústria: Tecnologias de automação...</li>
+            </ul>
+          </div>
+        </div>
+        <a href="#" class="btn btn-primary mt-2" data-bs-toggle="collapse" data-bs-target="#resto-fontes" role="button"
+          aria-expanded="false" aria-controls="resto-fontes" id="btn-fontes">
+          Ler mais
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="mb-5" id="transicao">
+    <div class="row shadow-lg p-4 mb-5 bg-body rounded efeito-luz-amarela">
+      <div class="col-md-6 text-center">
+        <img src="https://th.bing.com/th/id/OIP.C0v2Mp1zjB8kHshpiZiLMAHaE7?rs=1&pid=ImgDetMain"
+          class="img-fluid rounded img-duas-cores efeito-luz-amarela" alt="Transição Energética Global">
+      </div>
+      <div class="col-md-6">
+        <h2 class="text-primary">Transição Energética Global</h2>
+        <div id="conteudo-completo" class="collapse show">
+          <p class="fs-5" id="texto-transicao">
+            A transição energética global é uma transformação essencial nos sistemas de produção e consumo de energia,
+            com foco na substituição de combustíveis fósseis por fontes limpas e renováveis. Essa mudança é crucial para
+            mitigar os impactos climáticos, reduzir a dependência de fontes poluentes e promover uma economia
+            sustentável. O Acordo de Paris destaca a importância das energias renováveis e da eficiência energética para
+            limitar o aquecimento global.
+          </p>
+          <div class="collapse" id="resto-transicao">
+            <p class="fs-5">
+              Aumento da Capacidade de Energias Renováveis: Segundo a Agência Internacional de Energia (IEA), as fontes
+              renováveis foram responsáveis por 30% da geração global de eletricidade em 2022, e estima-se que esse
+              número alcance 50% até 2050.
+              <br> <br>
+              Energia Solar e Eólica em Destaque: A energia solar é o setor de maior crescimento, com uma taxa anual de
+              expansão de 21% (IRENA). Já a energia eólica contribuiu com 7% da geração global em 2022, com previsão de
+              aumento para 12% até 2030 (IEA).
+              <br> <br>
+              Investimentos Recordes: Em 2022, os investimentos globais em energias renováveis ultrapassaram 366 bilhões
+              de dólares, impulsionados pela queda nos custos das tecnologias, como o fotovoltaico (-85% desde 2010) e
+              turbinas eólicas (-40% na última década) (IRENA).
+              <br> <br>
+              Impactos Econômicos e Sociais: A indústria de renováveis emprega mais de 12 milhões de pessoas no mundo,
+              sendo os setores de energia solar (4,5 milhões) e eólica (1,3 milhões) os maiores empregadores.
+              <br> <br>
+              Redução de Emissões: De acordo com o Painel Intergovernamental sobre Mudanças Climáticas (IPCC), a adoção
+              de renováveis pode reduzir as emissões globais em até 70% até 2050.
+            </p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item efeito-luz-amarela">Edificações: Melhorias em isolamento térmico...</li>
+              <li class="list-group-item efeito-luz-amarela">Transporte: A eficiência dos veículos elétricos...</li>
+              <li class="list-group-item efeito-luz-amarela">Indústria: Tecnologias de automação...</li>
+            </ul>
+          </div>
+        </div>
+        <a href="#" class="btn btn-primary mt-2" data-bs-toggle="collapse" data-bs-target="#resto-transicao"
+          role="button" aria-expanded="false" aria-controls="resto-transicao" id="btn-transicao">
+          Ler mais
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="mb-5" id="eficiencia">
+    <div class="row shadow-lg p-4 mb-5 bg-body rounded efeito-luz-verde">
+      <div class="col-md-6 text-center">
+        <img src="https://th.bing.com/th/id/OIP.yPysFe-AVhJfisgnI1Ko-gHaEb?rs=1&pid=ImgDetMain"
+          class="img-fluid rounded efeito-luz-verde" alt="Eficiência Energética">
+      </div>
+      <div class="col-md-6">
+        <h2 class="text-primary">Eficiência Energética</h2>
+        <div id="conteudo-completo" class="collapse show">
+          <p class="fs-5" id="texto-eficiencia">
+            A eficiência energética é um dos pilares mais importantes para a construção de um futuro sustentável, sendo
+            considerada uma das formas mais acessíveis e eficazes de reduzir emissões de gases de efeito estufa. Ela
+            consiste em utilizar a energia de maneira mais racional, reduzindo desperdícios sem comprometer o desempenho
+            das atividades.
+          </p>
+          <div class="collapse" id="resto-eficiencia">
+            <p class="fs-5">
+              Edificações: A melhoria no isolamento térmico e o uso de iluminação eficiente podem reduzir o consumo de
+              energia em até 30% (IEA, 2023).
+              <br> <br>
+              Transporte: Veículos elétricos consomem até 60% menos energia do que os de combustíveis fósseis
+              (Ürge-Vorsatz et al., 2021).
+              <br> <br>
+              Indústria: A automação e a modernização de equipamentos podem aumentar a eficiência energética em 25%
+              (UNEP, 2022).
+              <br> <br>
+              Globalmente, investimentos em eficiência energética cresceram 16% em 2022, alcançando US$ 560 bilhões
+              (IEA).
+            </p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item efeito-luz-verde">Edificações: Melhorias em isolamento térmico...</li>
+              <li class="list-group-item efeito-luz-verde">Transporte: A eficiência dos veículos elétricos...</li>
+              <li class="list-group-item efeito-luz-verde">Indústria: Tecnologias de automação...</li>
+            </ul>
+          </div>
+        </div>
+        <a href="#" class="btn btn-primary mt-2" data-bs-toggle="collapse" data-bs-target="#resto-eficiencia"
+          role="button" aria-expanded="false" aria-controls="resto-eficiencia" id="btn-eficiencia">
+          Ler mais
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  document.querySelectorAll('.btn').forEach(btn => {
+    const collapseTarget = document.querySelector(btn.getAttribute('data-bs-target'));
+
+    collapseTarget.addEventListener('shown.bs.collapse', function () {
+      btn.textContent = 'Ler menos';
+    });
+
+    collapseTarget.addEventListener('hidden.bs.collapse', function () {
+      btn.textContent = 'Ler mais';
+    });
+  });
+</script>
+
+<script>
+  document.getElementById('lampada').addEventListener('click', function () {
+    const titulo = document.getElementById('titulo-header');
+    const subtitulo = document.getElementById('subtitulo-header');
+    const lampadaIcon = document.getElementById('icone-lampada');
+
+    // Verifica se o efeito já foi ativado
+    if (titulo.classList.contains('ativa') && subtitulo.classList.contains('ativa')) {
+      // Remove a cor amarela e o efeito de brilho
+      titulo.classList.remove('ativa');
+      subtitulo.classList.remove('ativa');
+      lampadaIcon.src = 'https://img.icons8.com/ios/50/ffffff/light-on.png';  // Lâmpada apagada
+    } else {
+      titulo.classList.add('ativa');
+      subtitulo.classList.add('ativa');
+      lampadaIcon.src = 'https://img.icons8.com/ios/50/ffffff/light-on.png';  // Lâmpada acesa
+    }
+  });
+
+  const particleCount = 150;
+  const colors = ["Green", "White"];
+  const particles = [];
+
+  const canvas = document.getElementById('fireworkCanvas');
+  const ctx = canvas.getContext('2d');
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+
+  class Particle {
+    constructor(x, y, color) {
+      this.x = x;
+      this.y = y;
+      this.color = color;
+      this.radius = Math.random() * 2 + 1;
+      this.velocity = {
+        x: Math.random() * 2 - 1,
+        y: Math.random() * 2 - 1
+      };
+      this.alpha = 1;
+    }
+
+    draw() {
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+      ctx.fillStyle = this.color;
+      ctx.globalAlpha = this.alpha;
+      ctx.closePath();
+      ctx.fill();
+    }
+
+    update() {
+      this.x += this.velocity.x;
+      this.y += this.velocity.y;
+      this.alpha -= 0.01;
+      this.radius -= 0.01;
+      this.draw();
+    }
+  }
+
+  function createFirework(x, y) {
+    for (let i = 0; i < particleCount; i++) {
+      const color = colors[Math.floor(Math.random() * colors.length)];
+      const particle = new Particle(x, y, color);
+      particles.push(particle);
+    }
+  }
+
+  function animate() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    for (let i = 0; i < particles.length; i++) {
+      particles[i].update();
+
+      if (particles[i].alpha <= 0 || particles[i].radius <= 0) {
+        particles.splice(i, 1);
+        i--;
+      }
+    }
+
+    requestAnimationFrame(animate);
+  }
+
+  document.addEventListener('click', function (event) {
+    const mouseX = event.clientX;
+    const mouseY = event.clientY;
+    createFirework(mouseX, mouseY);
+  });
+
+  animate();
+
+</script>
+{% endblock %}

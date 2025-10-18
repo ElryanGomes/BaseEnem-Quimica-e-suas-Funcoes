@@ -1,0 +1,228 @@
+{% extends "base.html" %} 
+{% block title %} Ciência e Tecnologia {% endblock %}
+
+{% block css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/ciencia.css')}}"/>
+{% endblock %} 
+
+{% block conteudo %}
+<nav id="atalhos">
+  <a href="#relacao">Relação</a>
+  <a href="#tecnologia">Tecnologia</a>
+  <a href="#influencia">Influência</a>
+  <a href="#desafios">Desafios</a>
+  <a href="#inovacoes">Inovações</a>
+</nav>
+
+<section class="informativo" id="ciencia">
+  <div class="container">
+    <h1>Ciência e Tecnologia: Impulsionando o Futuro</h1>
+    <p>
+      A ciência e a tecnologia são pilares fundamentais para o desenvolvimento
+      humano, moldando a forma como vivemos, trabalhamos e interagimos com o
+      mundo.
+    </p>
+    <p>
+      Com avanços que vão desde a saúde à exploração espacial, estas áreas não
+      apenas transformam nossas rotinas, mas também oferecem soluções para os
+      desafios globais mais urgentes.
+    </p>
+  </div>
+</section>
+
+<!-- outro html -->
+
+<main class="ciencia">
+  <section class="ciencia" id="relacao">
+    <h2>Relação entre Ciência e Tecnologia</h2>
+    <p>
+      A ciência fornece os fundamentos teóricos e empíricos necessários para a
+      inovação tecnológica, enquanto a tecnologia, por sua vez, possibilita
+      avanços na pesquisa científica, fornecendo novas ferramentas e métodos de
+      investigação. Essa relação simbiótica entre <em>ciência e tecnologia</em>
+      impulsiona o progresso em diversas áreas.
+    </p>
+    <img
+      src="{{ url_for('static', filename='img/cienciaTecnologia/imagemComputador.webp')}}"
+      alt="imagem de um computador"/>
+    <p>
+      Por exemplo, as descobertas científicas no campo da física possibilitaram
+      o desenvolvimento da eletrônica, levando à criação de dispositivos como
+      computadores e smartphones. Por sua vez, a tecnologia impulsiona a ciência
+      ao fornecer ferramentas avançadas para a coleta de dados, análise e
+      visualização. Equipamentos como microscópios eletrônicos, telescópios
+      espaciais e supercomputadores permitem aos cientistas estudar fenômenos
+      complexos em escalas que anteriormente eram inacessíveis. Dessa forma,
+      avanços na biologia molecular abriram caminho para a biotecnologia e a
+      medicina +moderna.
+    </p>
+  </section>
+
+  <section class="ciencia" id="tecnologia">
+    <h2>O Papel da Ciência</h2>
+    <p>
+      A ciência é a base do conhecimento que possibilita inovações tecnológicas.
+      Por meio de pesquisas e experimentos, cientistas buscam entender fenômenos
+      naturais, criar novas teorias e ampliar os limites do conhecimento humano.
+    </p>
+    <ul>
+      <li>
+        <strong>Medicina e Saúde:</strong> Avanços como as vacinas de mRNA,
+        utilizadas no combate à COVID-19, e terapias genéticas para doenças
+        raras.
+      </li>
+      <li>
+        <strong>Mudanças Climáticas:</strong> Desenvolvimento de soluções como
+        captação de carbono e energia limpa.
+      </li>
+      <li>
+        <strong>Exploração Espacial:</strong> Telescópio James Webb e projetos
+        de colonização de Marte.
+      </li>
+    </ul>
+  </section>
+
+  <section class="ciencia" id="influencia">
+    <h2>A Ciência e sua influência na Sociedade</h2>
+    <p>
+      Desde tempos antigos, a ciência tem permitido à humanidade compreender o
+      mundo ao seu redor, enquanto a tecnologia aplica esse conhecimento para
+      criar ferramentas que revolucionam a vida. Evolução ao Longo da História
+      Os primeiros humanos, há cerca de 2,5 milhões de anos, utilizavam apenas a
+      força física e instintos para sobreviver. Com o surgimento do Homo
+      sapiens, há 200 mil anos, começaram a surgir inovações como a domesticação
+      de animais, a agricultura e a escrita. Esses avanços permitiram o
+      desenvolvimento de grandes sociedades organizadas e criaram bases para
+      descobertas científicas que moldam o mundo moderno.
+    </p>
+    <img
+      src="{{ url_for('static', filename='img/cienciaTecnologia/sociedadeEvolutiva.webp')}}"
+      alt="imagem de uma sociedade evolutiva"/>
+    <h3>Contribuições Atuais da Ciência Hoje, a ciência impacta áreas como:</h3>
+
+    <ul>
+      <li>
+        <strong>Saúde:</strong> Desenvolvimento de medicamentos e vacinas para
+        combater doenças.
+      </li>
+      <li>
+        <strong>Economia:</strong> Transformação de indústrias pela tecnologia e
+        inovação.
+      </li>
+      <li>
+        <strong>Meio ambiente:</strong> Criação de
+        <a href="https://www.wribrasil.org.br/noticias/5-maneiras-de-reduzir-o-uso-de-petroleo-investindo-em-um-transporte-mais-limpo ">
+          soluções sustentáveis </a> para enfrentar mudanças climáticas.
+      </li>
+    </ul>
+  </section>
+
+  <section class="ciencia" id="desafios">
+    <h2>Desafios e Perspectivas</h2>
+    <p>Apesar dos avanços, desafios importantes persistem:</p>
+    <ul>
+      <li>
+        <strong>Desigualdade no Acesso:</strong> Falta de acesso à internet e
+        educação científica.
+      </li>
+      <li>
+        <strong>Questões Éticas:</strong> Privacidade e transparência em
+        tecnologias como IA.
+      </li>
+      <li>
+        <strong>Sustentabilidade:</strong> Impactos ambientais de dispositivos
+        tecnológicos.
+      </li>
+    </ul>
+    <p>O futuro reserva oportunidades, como:</p>
+    <ul>
+      <li>
+        <strong>Energias Renováveis:</strong> Pesquisa em energia solar, eólica
+        e nuclear.
+      </li>
+      <li>
+        <strong>Exploração Espacial:</strong> Viagens interplanetárias e
+        mineração espacial.
+      </li>
+      <li>
+        <strong>Medicina Personalizada:</strong> Tratamentos sob medida usando
+        dados genéticos e IA.
+      </li>
+    </ul>
+  </section>
+
+  <section class="ciencia" id="inovacoes">
+    <h2>As inovações Tecnológicas que Mudaram o Mundo</h2>
+    <h3>A Invenção Da Roda</h3>
+    <p>
+      Ninguém sabe ao certo quem inventou a roda, mas os registros mais antigos
+      foram encontrados por volta de 3500 AC, lá na Mesopotâmia (onde fica hoje
+      a Turquia). A roda é provavelmente a inovação tecnológica mais importante
+      de todos os tempos. Sem a roda, a humanidade nunca teria conseguido chegar
+      ao ponto onde está hoje. A roda permitiu que os seres humanos se
+      deslocassem mais rapidamente e facilmente, o que por sua vez permitiu que
+      eles se expandissem para novas áreas e desenvolvessem novas tecnologias.
+    </p>
+    <img
+      src="https://www.autoescolaonline.net/wp-content/uploads/2019/12/post-comportamento-roda.jpg"
+      alt=""
+    />
+
+    <h3>A Invenção Do Telemóvel</h3>
+    <p>
+      O telemóvel foi uma das inovações tecnológicas mais disruptivas de todos
+      os tempos. Criado no ano de 1876, o telemóvel mudou a forma como as
+      pessoas se comunicam e interagem. O telemóvel tornou-se um extension of
+      ourselves e está sempre presente na nossa vida. A invenção do telemóvel
+      permitiu que as pessoas ficassem mais conectadas do que nunca e mudou para
+      sempre a forma como as pessoas se comunicam.
+    </p>
+    <img
+      src="https://blog.insinis.com/wp-content/uploads/2024/03/o_papel_da_motorola_na_invencao_do_celular-quem_inventou_o_celular-blogpost-insinis-26042024-1024x576.webp"
+      alt=""
+    />
+
+    <h3>A Invenção Da Internet</h3>
+    <p>
+      A internet é a maior rede de comunicação já criada e está presente em
+      praticamente todos os aspectos da nossa vida. A internet permitiu que as
+      pessoas se comunicassem e partilhassem informação de forma mais rápida,
+      permitiu que as pessoas se conectassem com pessoas de todo o mundo e que
+      acessassem uma enorme quantidade de informação.
+    </p>
+    <p>
+      A maioria das pessoas considera Vinton Cerf e Robert Kahn, que projetaram
+      o Protocolo de Controle de Transmissão (TCP) em 1973, como os inventores
+      da internet. Durante esse tempo, a internet se transformou a partir da
+      ARPANet, um projeto do governo. No entanto, seria injusto creditar a
+      invenção de uma rede tão onipresente a uma única pessoa, já que dezenas de
+      cientistas, programadores e engenheiros pioneiros fizeram contribuições
+      fundamentais para a internet como a conhecemos hoje.
+    </p>
+    <img
+      src="https://blogger.googleusercontent.com/img/a/AVvXsEjT-6tKk-MZOQRLweGHQ-L8ydOh9QUpgCi5zqm709yGzBH-cnfIM9f2MaErDGCHw0l3gB73uUPEhhaFtTZBWqd460doyR8rar2AjSnZX7d-MwzK1_p0jhUhxfxK3TIpJT-u6aKV9vmL6iLXBMBt7OYRIXWrxqmOJojCLPm2Hno_qbhlMVYU5ejQW9q5wA=s16000"
+      alt=""
+    />
+
+    <h3>Quais as tendências de tecnologia aliada à ciência?</h3>
+    <p>
+      A ciência e tecnologia são duas áreas que evoluem rapidamente e estão
+      sempre se influenciando mutuamente. As tendências em cada uma dessas áreas
+      podem ter um impacto significativo nas outras, e é importante ficar de
+      olho nas tendências para se preparar para o futuro.
+    </p>
+    <p>
+      As tendências de ciência e tecnologia para os próximos anos podem incluir
+      o aumento da Inteligência Artificial, a biotecnologia, a nanotecnologia,
+      as energias renováveis e as tecnologias digitais. Todas essas áreas estão
+      em constante evolução e podem ter um grande impacto nas nossas vidas
+      nos próximos anos.
+    </p>
+    <img
+      src="https://universo.uniateneu.edu.br/wp-content/uploads/2022/05/Evolucao-da-tecnologia.png"
+      alt=""
+    />
+  </section>
+</main>
+
+{% endblock %}

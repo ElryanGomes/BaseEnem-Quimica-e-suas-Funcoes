@@ -1,0 +1,109 @@
+/* Estilos adicionais para ajuste visual */
+.container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .text-truncate {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* número de linhas que deseja mostrar antes de cortar */
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+  }
+
+  .efeito-luz {
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .efeito-luz:hover {
+    box-shadow: 0 0 10px 2px rgba(41, 51, 189, 0.5); /* Luz azul ao passar o mouse */
+  }
+  
+  .efeito-luz-amarela {
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .efeito-luz-amarela:hover {
+    box-shadow: 0 0 25px 5px rgba(255, 204, 0, 0.7); /* Sombra amarela ao passar o mouse */
+  }
+  
+  .efeito-luz {
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .efeito-luz:hover {
+    box-shadow: 0 0 15px 5px rgba(255, 204, 0, 0.7); /* Sombra amarela ao passar o mouse */
+  }
+  
+  .efeito-luz-verde {
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .efeito-luz-verde:hover {
+    box-shadow: 0 0 25px 5px rgba(236, 220, 229, 0.7); /* Sombra verde ao passar o mouse */
+  }
+  
+  .efeito-luz-verde img {
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .efeito-luz-verde img:hover {
+    box-shadow: 0 0 25px 5px rgba(34, 139, 34, 0.7); /* Sombra verde ao passar o mouse */
+  }
+
+  .efeito-luz-verde {
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .efeito-luz-verde:hover {
+    box-shadow: 0 0 25px 5px rgba(0, 128, 0, 0.8); /* Cor verde química mais intensa */
+  }
+  
+  .efeito-luz-verde img {
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .efeito-luz-verde img:hover {
+    box-shadow: 0 0 15px 5px rgba(0, 128, 0, 0.8); /* Cor verde química ao passar o mouse */
+  }
+  
+
+  
+  #nav{
+    border-radius: 20px;
+  }
+
+  #meu-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+
+  .efeito-luz-amarela {
+    display: inline-block; /* Para garantir que o efeito se limite ao elemento */
+    transition: text-shadow 0.3s ease-in-out, color 0.3s ease-in-out; /* Transição suave */
+  }
+  
+  /* Efeito de brilho nas letras apenas quando a classe 'ativa' for adicionada */
+  .efeito-luz-amarela.ativa {
+    color: yellow; /* Cor amarela */
+    text-shadow: 0 0 15px rgba(255, 204, 0, 0.7); /* Efeito de brilho amarelado */
+  }
+  
+  /* Aplicar o brilho apenas no texto quando a classe 'ativa' for adicionada, e não no hover */
+  .efeito-luz-amarela:not(.ativa):hover {
+    text-shadow: none; /* Não aplicar o brilho ao passar o mouse, se não estiver ativa */
+  }
+  
+  #fireworkCanvas {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Evita bloquear cliques em outros elementos */
+}

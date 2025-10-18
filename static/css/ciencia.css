@@ -1,0 +1,156 @@
+/* Seção Informativa */
+* {
+    line-height: 1.7;
+}
+
+.informativo .container {
+    padding: 40px 0;
+    background-color: white;
+    margin-bottom: 20px;
+    padding-top: 120px;
+}
+
+.informativo .container h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.informativo .container p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: center;
+    margin-bottom: 20px;
+    margin: auto 20px;
+}
+
+#atalhos {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    top: 70px;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 0px;
+}
+
+#atalhos a {
+    color: white;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: background 0.3s, color 0.3s;
+}
+
+#atalhos a:hover {
+    background-color: #3a44d856;
+    color: #fff;
+    border-radius: 5px;
+}
+
+main.ciencia {
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+main.ciencia img {
+    width: 70%;
+    border-radius: 7px;
+    filter: brightness(90%);
+    transition-duration: 0.5s;
+    display: flex;
+    margin: 2rem auto;
+}
+
+main.ciencia img:hover {
+    filter: brightness(100%);
+}
+
+main.ciencia h3 {
+    color: #1b0d6b;
+}
+
+section.ciencia {
+    margin: 3rem;
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-left: 6px solid #182a7c;
+}
+
+.ciencia h2 {
+    margin-bottom: 1rem;
+    color: #1b0d6b;
+    font-size: 2rem;
+    font-weight: bold;
+    border-bottom: 2px solid #03045a;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+.ciencia p,
+.ciencia ul {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: #312f4b;
+}
+
+.ciencia ul {
+    list-style: disc;
+    padding-left: 2rem;
+}
+
+.ciencia ul li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
+
+
+a {
+    color: #1b1d81;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+a:hover {
+    color: #09053a;
+    text-shadow: 1px 1px 2px rgba(7, 8, 65, 0.151);
+}
+
+
+.ciencia section:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .informativo .container {
+        padding: 10px 0;
+    }
+
+    nav#atalhos {
+        display: none;
+    }
+
+    section {
+        padding: 1rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p,
+    ul {
+        font-size: 1rem;
+    }
+}

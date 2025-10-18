@@ -1,0 +1,322 @@
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body e Fonte */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    color: #000000;
+    padding: 40px 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+
+}
+
+header p {
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #2980b9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+ /* Estilos do menu lateral */
+ #side-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background: #222;
+    color: white;
+    padding-top: 60px;
+    transform: translateX(-250px); /* Começa oculto */
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+#side-nav a {
+    display: block;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-bottom: 1px solid #444;
+    transition: background 0.3s;
+}
+
+#side-nav a:hover {
+    background: #575757;
+}
+
+/* Botão de controle do menu */
+#menu-btn {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    background: #222;
+    color: white;
+    padding: 12px 18px;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+#menu-btn:hover {
+    background: #444;
+}
+
+
+/* Conteúdo principal */
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Seções */
+section {
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section-img {
+    max-width: 100%;
+    height: auto;
+    max-height: 400px;
+    /* Limita a altura das imagens */
+    object-fit: cover;
+    /* Faz a imagem cobrir o espaço sem distorcer */
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#img {
+    display: flex;
+    justify-content: center;
+}
+
+.section-content {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #2980b9;
+    margin-left: 0px;
+    white-space: normal;
+}
+
+/* Listas */
+ul.section-content {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul.section-content li {
+    margin-bottom: 10px;
+}
+
+/* Caixas de Exemplos */
+.example-case {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-left: 4px solid #2980b9;
+    border-radius: 8px;
+}
+
+.example-case h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Formulário de Contato */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #3498db;
+}
+
+/* Seção de dúvidas */
+#duvidas {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section-title-duvidas {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+
+.duvidas-container {
+    margin-bottom: 1.5rem;
+}
+
+.duvidas-label {
+    margin-top: 0px;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.duvidas-dropdown,
+.duvidas-textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.duvidas-dropdown {
+    height: 3rem;
+}
+
+.duvidas-textarea {
+    height: 6rem;
+    resize: none;
+}
+
+.duvidas-button {
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 5px;
+}
+
+.duvidas-button:hover {
+    background-color: #0056b3;
+}
+
+.duvidas-resposta {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #eef6ff;
+    border: 1px solid #cce5ff;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #004085;
+}
+
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #34495e;
+    color: #fff;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #2980b9;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 10px 0;
+    }
+
+    .content {
+        padding: 10px;
+    }
+
+    form input,
+    form textarea,
+    form button {
+        width: 100%;
+    }
+}

@@ -1,0 +1,73 @@
+{% extends "base.html" %} 
+{% block title %} Site P.I. {% endblock %} 
+
+{% block css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/Site-pi.css')}}" />
+<link rel="icon" href="static/img/Base/SitePI.ico" type="image/x-icon" />
+{% endblock %} 
+
+{% block conteudo %}
+<div id="image-back"></div>
+
+<div id="welcome-all" onmouseover="document.querySelector('.barra').style.width = '100%'"
+                      onmouseout="document.querySelector('.barra').style.width = '20%'">
+
+  <div id="texto">
+    <div id="welcome">
+      <p id="titu-1">BEM-VINDO AO</p>
+      <p id="titu-2">NOSSO SITE</p>
+    </div>
+
+    <div class="barra-all">
+      <div class="barra"></div>
+    </div>
+
+    <div id="texto-button">
+      <p id="texto-materia">
+        Este site foi desenvolvido por alunos do Instituto Federal de Educação,
+        Ciência e Tecnologia do Piauí (IFPI), como parte de um projeto da
+        disciplina Projeto Integrador, do curso Técnico em Informática integrado
+        ao Ensino Médio. O objetivo é apresentar uma ampla gama de conteúdos
+        relevantes, como tópicos do ENEM, matérias de Química, Ciência e
+        Tecnologia, entre outros, visando fornecer informações e recursos úteis
+        para estudantes e interessados nessas áreas.
+      </p>
+      <br />
+    </div>
+  </div>
+
+  <div id="rolagem">
+    <img id="rolagem-foto1" src="{{ url_for('static', filename='img/SitePI/mulherMicroscopio.jpg') }}"
+      alt="foto-de-mulher-vendo-um-microscópio" />
+    <div id="rolagem-all">
+      <div id="rolagem-texto"></div>
+    </div>
+  </div>
+</div>
+
+<!-- CARDS -->
+<div id="fundo-assuntos">
+  <div id="assuntos">
+
+    {% for item in cards %}
+    <div class="materias">
+      <a href="{{ item.refe }}">
+        <div class="conteudo-materia">
+          <img src="{{ url_for('static', filename=item.imge ) }}" alt="" />
+          <p class="card-titu">{{ item.titu }}</p>
+          <div>
+            <p class="card-text">{{ item.text }}</p>
+          </div>
+          <button class="button-2">Saiba mais</button>
+        </div>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+
+  <button class="next"> > </buttom>
+  <button class="back"> < </buttom>
+</div>
+
+<script src="{{ url_for('static', filename='js/site-pi.js') }}"></script>
+{% endblock %}

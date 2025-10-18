@@ -1,0 +1,326 @@
+{% extends "base.html" %}
+{% block title %} Sobre {% endblock %}
+
+{% block css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/sobre.css') }}" />
+<link rel="icon" href="{{ url_for('static', filename='img/Base/Sobre.ico') }}" type="image/x-icon"/>
+{% endblock %} 
+
+{% block conteudo %}
+<div class="bloco">
+  <header id="header">
+    <h1>Sobre Química</h1>
+    <form>
+      <select id="select">
+        <option class="select-items" value="padrao">Selecione</option>
+        <option class="select-items" value="#tecnologia">Ciência e Tecnologia</option>
+        <option class="select-items" value="2">IA e Química</option>
+        <option class="select-items" value="3">Questões ENEM</option>
+        <option class="select-items" value="4">Energias Sustentáveis</option>
+        <option class="select-items" value="5">Química e Sociedade</option>
+        <option class="select-items" value="6">Química e Meio Ambiente</option>
+      </select>
+    </form>
+  </header>
+
+  <main>
+    <!-- option 1 -->
+    <div class="container">
+      <article class="foto">
+        <img
+          src="static/img/Base/LogoIFPI.jpg"
+          alt="fotoIFPI" />
+      </article>
+
+      <section class="text">
+        <p>
+          Este site foi desenvolvido como parte da disciplina de
+          <strong>Projeto Integrador</strong>, ministrada pelo professor Brito no
+          <em> <a href="https://www.ifpi.edu.br/" target="_blank">
+          Instituto Federal de Educação, Ciência e Tecnologia do Piauí
+          (IFPI)</a>, </em> <br> com o apoio do Instituto. O projeto tem como principal objetivo
+          integrar e aplicar os conhecimentos adquiridos ao longo do curso,
+          proporcionando aos alunos uma experiência prática e colaborativa.
+        </p>
+        <br>
+        <p>
+          O conteúdo abordado no site inclui temas relacionados à
+          <strong>química e tecnologia</strong>, explorando a interseção entre
+          essas áreas. Aqui, os visitantes encontrarão questões preparatórias
+          para o ENEM, artigos sobre novas tecnologias, análises sobre a mistura
+          entre ciência e tecnologia, além de diversas discussões acadêmicas e
+          científicas.
+        </p>
+        <br />
+        <p>
+          Todo o material foi produzido pelos alunos do
+          <strong> 2º ano do curso integrado em Informática</strong>
+          <em> (2º Info B)</em> no ano de 2024. A disciplina e o trabalho
+          possuem uma duração total de seis meses, período no qual os estudantes
+          se dedicam à pesquisa, organização e desenvolvimento do conteúdo,
+          ampliando seus conhecimentos e aprimorando suas habilidades técnicas e
+          acadêmicas.
+        </p>
+        <br>
+        <p>
+          Com essa iniciativa, busca-se não apenas aprofundar os temas estudados
+          em sala de aula, mas também incentivar a curiosidade científica, o
+          pensamento crítico e a capacidade de inovação, preparando os alunos
+          para desafios futuros no campo da ciência e da tecnologia.
+        </p>
+      </section>
+    </div>
+
+    <!-- option 2 -->
+    <div id="tecnologia" class="container">
+      <article class="foto">
+        <img src="static/img/CienciaTecnologia/FotoCard.webp" alt="foto" />
+      </article>
+
+      <section class="text">
+        <h4>Site feito pelos alunos João Gabriel, Arthur Dias e Elryan Gomes.</h4>
+        Referências: <br>
+        <p>
+          <a href="https://images.app.goo.gl/vP3gepm3PEqWv6nP7"
+            target="_blank">https://images.app.goo.gl/vP3gepm3PEqWv6nP7</a> <br>
+          <a href="https://images.app.goo.gl/3f9DxP892aoFB9tq5"
+            target="_blank">https://images.app.goo.gl/3f9DxP892aoFB9tq5</a> <br>
+          <a href="https://images.app.goo.gl/GU3fhtinZg6CZxjC6"
+            target="_blank">https://images.app.goo.gl/GU3fhtinZg6CZxjC6</a> <br>
+          <a href="https://www.wribrasil.org.br/noticias/5-maneiras-de-reduzir-o-uso-de-petroleo-investindo-em-um-transporte-mais-limpo"
+            target="_blank">https://www.wribrasil.org.br/noticias/5-maneiras-de-reduzir-o-uso-de-petroleo-investindo-em-um-transporte-mais-limpo</a>
+          <br>
+          <a href="https://www.mindtek.com.br/2024/12/ciencia-e-tecnologia-na-sociedade/"
+            target="_blank">https://www.mindtek.com.br/2024/12/ciencia-e-tecnologia-na-sociedade/</a> <br>
+          <a href="https://images.app.goo.gl/pZyCiBJJyXbPL2s16"
+            target="_blank">https://images.app.goo.gl/pZyCiBJJyXbPL2s16</a> <br>
+          <a href="https://images.app.goo.gl/AksMSUfNHbxQb2pw9"
+            target="_blank">https://images.app.goo.gl/AksMSUfNHbxQb2pw9</a> <br>
+          <a href="https://images.app.goo.gl/6He9k6yfjTrhKJnx6"
+            target="_blank">https://images.app.goo.gl/6He9k6yfjTrhKJnx6</a> <br>
+          <a href="https://images.app.goo.gl/4EwBUo7KpSo8zcty6 "
+            target="_blank">https://images.app.goo.gl/4EwBUo7KpSo8zcty6 </a> <br>
+          <a href="https://images.app.goo.gl/t4qwegx7m9mYNr338"
+            target="_blank">https://images.app.goo.gl/t4qwegx7m9mYNr338</a> <br>
+          <a href="https://images.app.goo.gl/6UvwzCVfEMpMBYRt5 "
+            target="_blank">https://images.app.goo.gl/6UvwzCVfEMpMBYRt5 </a> <br>
+          <a href="https://images.app.goo.gl/jbuvYLkaKV7JxjgQ8 "
+            target="_blank">https://images.app.goo.gl/jbuvYLkaKV7JxjgQ8 </a> <br>
+          <a href="https://images.app.goo.gl/pLViTWQLQGnGAyD47 "
+            target="_blank">https://images.app.goo.gl/pLViTWQLQGnGAyD47 </a> <br>
+          <a href="https://images.app.goo.gl/eapdnngWNBUqUBV18 "
+            target="_blank">https://images.app.goo.gl/eapdnngWNBUqUBV18 </a> <br>
+        </p>
+      </section>
+    </div>
+
+    <!-- option 3 -->
+    <div id="iaQuimica" class="container">
+      <article class="foto">
+        <img src="static/img/IA-Quimica/FotoCard.jpg" alt="foto" />
+      </article>
+
+      <section class="text">
+        <h4>Site feito pelos alunos Felipe Siva e Maria da Consolação.</h4>
+        Referências: <br />
+        <p>
+          <a href="https://iaexpert.academy/wp-content/uploads/2024/05/chemicals.jpg"
+            target="_blank">https://iaexpert.academy/wp-content/uploads/2024/05/chemicals.jpg
+          </a>
+          <br />
+          <a href=" https://phet.colorado.edu/sims/build-a-molecule/build-a-molecule-600.png
+          " target="_blank">
+            https://phet.colorado.edu/sims/build-a-molecule/build-a-molecule-600.png
+          </a>
+          <br />
+          <a href="https://img.odcdn.com.br/wp-content/uploads/2023/08/Remedio-IA-1.jpg
+          " target="_blank">https://img.odcdn.com.br/wp-content/uploads/2023/08/Remedio-IA-1.jpg
+          </a>
+          <br />
+          <a href="https://7793103.fs1.hubspotusercontent-na1.net/hubfs/7793103/Imported_Blog_Media/machine-redimensionado.jpg
+          " target="_blank">https://7793103.fs1.hubspotusercontent-na1.net/hubfs/7793103/Imported_Blog_Media/machine-redimensionado.jpg
+          </a>
+          <br />
+          <a href="https://saudedigitalnews.com.br/wp-content/uploads/2023/03/IA-Medicina_shutterstock-scaled-e1677757276371.jpg 
+          " target="_blank">https://saudedigitalnews.com.br/wp-content/uploads/2023/03/IA-Medicina_shutterstock-scaled-e1677757276371.jpg
+          </a>
+          <br />
+          <a href="https://img.freepik.com/fotos-premium/futuro-robo-de-inteligencia-artificial-e-cyborg_31965-6238.jpg "
+            target="_blank">https://img.freepik.com/fotos-premium/futuro-robo-de-inteligencia-artificial-e-cyborg_31965-6238.jpg
+          </a>
+          <br />
+          <a href="https://avanziquimica.com.br/blog/blog-p/novidades-industria-quimica/quimica-computacional-e-inteligencia-artificial-transformando-a-industria-química
+          " target="_blank">https://avanziquimica.com.br/blog/blog-p/novidades-industria-quimica/quimica-computacional-e-inteligencia-artificial-transformando-a-industria-química
+          </a>
+          <br />
+          <a href="
+          https://phet.colorado.edu/pt_BR/simulation/build-a-molecule
+          " target="_blank">
+            https://phet.colorado.edu/pt_BR/simulation/build-a-molecule
+          </a>
+          <br />
+          <a href="https://www.cas.org/pt-br/resources/cas-insights/artificial-intelligence-chemistry
+          " target="_blank">https://www.cas.org/pt-br/resources/cas-insights/artificial-intelligence-chemistry
+          </a>
+          <br />
+          <a href="
+          https://rce.casadasciencias.org/rceapp/static/docs/artigos/2015-131.pdf
+          " target="_blank">
+            https://rce.casadasciencias.org/rceapp/static/docs/artigos/2015-131.pdf
+          </a>
+          <br />
+          <a href="
+          https://www.allaboutai.com/pt-br/glossario-ai/quimica-computacional
+          " target="_blank">
+            https://www.allaboutai.com/pt-br/glossario-ai/quimica-computacional
+          </a>
+          <br />
+          <a href="
+          https://cfq.org.br/noticia/inteligencia-artificial-o-futuro-das-analises-quimicas
+          " target="_blank">
+            https://cfq.org.br/noticia/inteligencia-artificial-o-futuro-das-analises-quimicas
+          </a>
+          <br />
+          <a href="
+          https://www.wolfram.com/language/core-areas/chemistry/index.php.pt-br " target="_blank">
+            https://www.wolfram.com/language/core-areas/chemistry/index.php.pt-br
+          </a>
+          <br />
+        </p>
+      </section>
+    </div>
+
+    <!-- option 4 -->
+    <div class="container">
+      <article class="foto">
+        <img src="static/img/EnemQuestoes/FotoCard.jpg" alt="foto" />
+      </article>
+
+      <section class="text">
+        <h4>Site feito pelos alunos Victor Ravel, Francisco Rafaelson e Arthur Vinícius.</h4>
+        Referências: <br />
+        <p>
+          <a href="descomplica.com.br" target="_blank">descomplica.com.br
+          </a>
+          <br />
+          <a href="https://elitecampinas.com.br/
+          " target="_blank">
+            https://elitecampinas.com.br/
+          </a>
+          <br />
+          <a href="https://xequematenem.com.br/blog/
+          " target="_blank">https://xequematenem.com.br/blog/
+
+          </a>
+          <br />
+          <a href="brainly.com.br
+          " target="_blank">brainly.com.br
+          </a>
+          <br />
+      </section>
+    </div>
+
+    <!-- option 5 -->
+    <div class="container">
+      <article class="foto">
+        <img src="static/img/Energias/FotoCard.avif" alt="foto" />
+      </article>
+
+      <section class="text">
+        <h4>Site feito pelos alunos Dielson Cordeiro, João Victor e Francislane Santos.</h4>
+        Referências: <br>
+        <p>
+          <a href="https://brusselsenieuwe.nl/lidstaten-oneens-over-hogere-doelstelling-voor-energiebesparing/"
+            target="_blank">https://brusselsenieuwe.nl/lidstaten-oneens-over-hogere-doelstelling-voor-energiebesparing/</a>
+          <br>
+          <a href="https://www.ciminvestigacion.com/wp-content/uploads/2023/04/green-marketing-2-1024x683.jpg"
+            target="_blank">https://www.ciminvestigacion.com/wp-content/uploads/2023/04/green-marketing-2-1024x683.jpg</a>
+          <br>
+          <a href="https://www.leddirect.nl/blog/duurzame-dinsdag"
+            target="_blank">hhttps://www.leddirect.nl/blog/duurzame-dinsdag</a> <br>
+          <a href="https://learn.g2.com/sustainable-business-practices"
+            target="_blank">https://https://learn.g2.com/sustainable-business-practices</a> <br>
+        </p>
+      </section>
+    </div>
+
+    <!-- option 6 -->
+    <div class="container">
+      <article class="foto">
+        <img src="static/img/QuimicaSociedade/FotoCard.jpg" alt="foto" />
+      </article>
+
+      <section class="text">
+        <h4>Site feito pelos alunos Antonia Isabely, Carla Vilena e Matheus Rodrigues.</h4>
+        Referências: <br>
+        <p>
+          <a href="https://www.cigam.com.br/bd/blog-post/a-industria-quimica-brasileira1724679779-g.webp"
+            target="_blank">https://www.cigam.com.br/bd/blog-post/a-industria-quimica-brasileira1724679779-g.webp</a>
+          <br>
+          <a href="https://www.datiquim.com.br/imagens/slider/banner-01.jpg"
+            target="_blank">https://www.datiquim.com.br/imagens/slider/banner-01.jpg</a> <br>
+          <a href="https://sqquimica.com/wp-content/uploads/2023/01/quimicasociedade.jpg"
+            target="_blank">https://sqquimica.com/wp-content/uploads/2023/01/quimicasociedade.jpg</a> <br>
+        </p>
+      </section>
+    </div>
+
+    <!-- option 7 -->
+    <div class="container">
+      <article class="foto">
+        <img src="static/img/QuimicaAmbiente/FotoCard.jpg" alt="foto" />
+      </article>
+
+      <section class="text">
+        <h4>Site feito pelos alunos Jéssica, João Victor e Francislane.</h4>
+        Referências: <br>
+        <p>
+          <a href="https://www.brainmarket.com.br/2022/09/02/ainda-muito-distante-do-ideal-equilibrio-da-balanca-comercial-dos-produtos-quimicos-apresenta-leve-melhora/"
+            target="_blank">https://www.brainmarket.com.br/2022/09/02/ainda-muito-distante-do-ideal-equilibrio-da-balanca-comercial-dos-produtos-quimicos-apresenta-leve-melhora/</a>
+          <br>
+          <a href="https://www.regiaodeleiria.pt/2022/11/educacao-ambiente-e-desenvolvimento-em-debate-na-esecs/"
+            target="_blank">https://www.regiaodeleiria.pt/2022/11/educacao-ambiente-e-desenvolvimento-em-debate-na-esecs/</a>
+          <br>
+        </p>
+      </section>
+    </div>
+
+  </main>
+</div>
+
+<!-- <script>
+  const select = document.getElementById("select");
+  const containers = document.querySelectorAll(".container");
+
+  // Começa exibindo apenas a primeira (padrão)
+  containers.forEach((div, index) => {
+    div.style.display = index === 0 ? "flex" : "none";
+  });
+
+  select.addEventListener("change", () => {
+    const valor = select.value;
+
+    // Esconde tudo
+    containers.forEach(div => div.style.display = "none");
+
+    // Mostra o conteúdo correspondente à opção
+    if (valor === "padrao") {
+      containers[0].style.display = "flex"; // o primeiro (texto padrão)
+    } else if (valor === "#tecnologia") {
+      document.querySelector("#tecnologia").style.display = "flex";
+    } else if (valor === "2") {
+      document.querySelector("#iaQuimica").style.display = "flex";
+    } else if (valor === "3") {
+      containers[3].style.display = "flex";
+    } else if (valor === "4") {
+      containers[4].style.display = "flex";
+    } else if (valor === "5") {
+      containers[5].style.display = "flex";
+    } else if (valor === "6") {
+      containers[6].style.display = "flex";
+    }
+  });
+
+</script> -->
+
+{% endblock %}
